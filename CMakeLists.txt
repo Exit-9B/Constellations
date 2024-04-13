@@ -14,6 +14,7 @@ list(APPEND CMAKE_MODULE_PATH
 	"${PROJECT_SOURCE_DIR}/tools/BethesdaCMakeModules/Modules"
 )
 include(SKSEPlugin)
+include(Spriggit)
 include(Papyrus)
 
 set(SKSE_USE_XBYAK ON)
@@ -34,6 +35,15 @@ SKSEPlugin_Add(
 
 set_target_properties(CommonLibSSE PROPERTIES
     FOLDER External
+)
+
+Spriggit_Deserialize(
+	"Spriggit"
+	INPUT "${PROJECT_SOURCE_DIR}/data/ConstellationsNewSkills.esp"
+	OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/ConstellationsNewSkills.esp"
+	PACKAGE Spriggit.Yaml
+	COMPONENT "Plugin"
+	EXCLUDE_FROM_ALL
 )
 
 if(SkyrimSE_PATH)
@@ -62,4 +72,8 @@ endif()
 set(CPACK_GENERATOR "7Z")
 set(CPACK_PACKAGE_FILE_NAME ${PROJECT_NAME}-${PROJECT_VERSION})
 set(CPACK_INCLUDE_TOPLEVEL_DIRECTORY FALSE)
+set(CPACK_INSTALL_CMAKE_PROJECTS
+	".;${PROJECT_NAME};ALL;/"
+	".;${PROJECT_NAME};Plugin;/"
+)
 include(CPack)
