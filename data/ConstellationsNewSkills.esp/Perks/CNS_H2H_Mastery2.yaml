@@ -1,0 +1,46 @@
+FormKey: 0058E2:ConstellationsNewSkills.esp
+EditorID: CNS_H2H_Mastery2
+Name:
+  TargetLanguage: English
+  Value: Brawler
+Description:
+  TargetLanguage: English
+  Value: Unarmed attacks do 40% more damage.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D61:ConstellationsNewSkills.esp
+  ComparisonValue: 20
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0058E1:ConstellationsNewSkills.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True
+NextPerk: 0058E3:ConstellationsNewSkills.esp
+Effects:
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: HasPerkConditionData
+        Perk: 0058E3:ConstellationsNewSkills.esp
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        Object: 0001F4:Skyrim.esm
+      ComparisonValue: 1
+  EntryPoint: ModAttackDamage
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 1.4

@@ -1,0 +1,14 @@
+FormKey: 00E559:ConstellationsNewSkills.esp
+EditorID: CNS_EnchArmorFortifyAthletics02
+Name:
+  TargetLanguage: English
+  Value: Fortify Speed
+EnchantmentCost: 430
+EnchantmentAmount: 430
+EnchantType: Enchantment
+BaseEnchantment: 00E555:ConstellationsNewSkills.esp
+WornRestrictions: 00E546:ConstellationsNewSkills.esp
+Effects:
+- BaseEffect: 00E542:ConstellationsNewSkills.esp
+  Data:
+    Magnitude: 6

@@ -1,0 +1,21 @@
+FormKey: 00E53C:ConstellationsNewSkills.esp
+EditorID: CNS_LItemPotionFortifyAthleticsBest
+Flags:
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 00E528:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 10
+    Reference: 00E52A:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 20
+    Reference: 00E52C:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 30
+    Reference: 00E52E:ConstellationsNewSkills.esp
+    Count: 1

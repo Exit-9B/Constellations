@@ -1,0 +1,35 @@
+FormKey: 0FD9BF:Skyrim.esm
+EditorID: SublistEnchARmorDaedricGauntlets06
+Version2: 5
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 0D7AB0:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0D7AC5:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0D7AC8:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0D7ACE:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0D7AD1:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00EB0C:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00F62E:ConstellationsNewSkills.esp
+    Count: 1

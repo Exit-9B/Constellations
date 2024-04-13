@@ -1,0 +1,35 @@
+FormKey: 03A164:Skyrim.esm
+EditorID: LItemPotionFortifyCombatSkills
+Version2: 3
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 039ECF:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 039ED4:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 039ED7:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 039ED9:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 03A06B:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 03A106:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00E538:ConstellationsNewSkills.esp
+    Count: 1

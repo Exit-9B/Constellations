@@ -1,0 +1,21 @@
+FormKey: 008420:ConstellationsNewSkills.esp
+EditorID: CNS_ATH_PerkFortifyStaminaRate
+Name:
+  TargetLanguage: English
+  Value: Second Wind
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 00841E:ConstellationsNewSkills.esp
+  Data:
+    Magnitude: 50
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: IsInCombatConditionData

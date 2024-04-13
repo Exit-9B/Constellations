@@ -1,0 +1,28 @@
+FormKey: 000D70:ConstellationsNewSkills.esp
+Flags:
+  Flags:
+  - Random
+  - RandomEnd
+PreviousDialog: 000D6F:ConstellationsNewSkills.esp
+FavorLevel: None
+ResponseData: 0BD7E1:Skyrim.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01CD8F:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 01CD8F:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 0E595A:Skyrim.esm
+  ComparisonValue: 1

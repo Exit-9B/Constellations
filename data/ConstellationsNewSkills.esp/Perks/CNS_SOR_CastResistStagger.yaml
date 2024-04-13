@@ -1,0 +1,90 @@
+FormKey: 008410:ConstellationsNewSkills.esp
+EditorID: CNS_SOR_CastResistStagger
+Name:
+  TargetLanguage: English
+  Value: Deep Focus
+Description:
+  TargetLanguage: English
+  Value: 50% less stagger while focusing a staff.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D67:ConstellationsNewSkills.esp
+  ComparisonValue: 20
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0058DC:ConstellationsNewSkills.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetEquippedItemTypeConditionData
+        ItemSource: Right
+      ComparisonValue: 8
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetEquippedItemTypeConditionData
+      ComparisonValue: 8
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGraphVariableIntConditionData
+        FirstUnusedIntParameter: 2101773152
+        GraphVariable: IsCastingRight
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGraphVariableIntConditionData
+        FirstUnusedIntParameter: 2101773296
+        GraphVariable: IsCastingLeft
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetEquippedItemTypeConditionData
+        ItemSource: Right
+      ComparisonValue: 8
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGraphVariableIntConditionData
+        FirstUnusedIntParameter: 2101773536
+        GraphVariable: IsCastingLeft
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGraphVariableIntConditionData
+        FirstUnusedIntParameter: 2101773680
+        GraphVariable: IsCastingRight
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetEquippedItemTypeConditionData
+      ComparisonValue: 8
+  EntryPoint: ModIncomingStagger
+  PerkConditionTabCount: 2
+  Modification: Multiply
+  Value: 0.5

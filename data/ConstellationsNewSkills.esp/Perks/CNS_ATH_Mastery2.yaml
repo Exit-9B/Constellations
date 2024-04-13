@@ -1,0 +1,28 @@
+FormKey: 0058F9:ConstellationsNewSkills.esp
+EditorID: CNS_ATH_Mastery2
+Name:
+  TargetLanguage: English
+  Value: Swift Step
+Description:
+  TargetLanguage: English
+  Value: Move 10% faster.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D64:ConstellationsNewSkills.esp
+  ComparisonValue: 20
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0058F7:ConstellationsNewSkills.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True
+NextPerk: 0058FA:ConstellationsNewSkills.esp
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 0058EF:ConstellationsNewSkills.esp

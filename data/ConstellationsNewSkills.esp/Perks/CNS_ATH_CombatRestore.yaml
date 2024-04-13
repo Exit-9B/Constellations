@@ -1,0 +1,27 @@
+FormKey: 008423:ConstellationsNewSkills.esp
+EditorID: CNS_ATH_CombatRestore
+Name:
+  TargetLanguage: English
+  Value: Fight or Flight
+Description:
+  TargetLanguage: English
+  Value: Completely restore stamina when entering combat.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D64:ConstellationsNewSkills.esp
+  ComparisonValue: 40
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0058F7:ConstellationsNewSkills.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 00841D:ConstellationsNewSkills.esp

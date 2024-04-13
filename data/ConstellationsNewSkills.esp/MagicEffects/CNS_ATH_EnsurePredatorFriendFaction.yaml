@@ -1,0 +1,26 @@
+FormKey: 00CA2F:ConstellationsNewSkills.esp
+EditorID: CNS_ATH_EnsurePredatorFriendFaction
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CNS_MagicEnsureInFaction
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionToAdd
+      Object: 0D263E:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Stay Friends
+Flags:
+- NoDuration
+- NoMagnitude
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

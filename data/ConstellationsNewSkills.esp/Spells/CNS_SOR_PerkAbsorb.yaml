@@ -1,0 +1,17 @@
+FormKey: 008416:ConstellationsNewSkills.esp
+EditorID: CNS_SOR_PerkAbsorb
+Name:
+  TargetLanguage: English
+  Value: Lightning Rod
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- NoAbsorbOrReflect
+Type: Ability
+ChargeTime: 0.2
+Effects:
+- BaseEffect: 008415:ConstellationsNewSkills.esp
+  Data:
+    Magnitude: 5

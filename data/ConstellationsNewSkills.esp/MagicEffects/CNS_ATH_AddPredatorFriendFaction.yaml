@@ -1,0 +1,26 @@
+FormKey: 00CA2E:ConstellationsNewSkills.esp
+EditorID: CNS_ATH_AddPredatorFriendFaction
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CNS_MagicAddToFaction
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionToAdd
+      Object: 0D263E:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Make Friends
+Flags:
+- NoDuration
+- NoMagnitude
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

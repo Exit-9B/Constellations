@@ -1,0 +1,35 @@
+FormKey: 08FFF3:Skyrim.esm
+EditorID: SublistEnchArmorElvenBoots04
+Version2: 3
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 0BDFBB:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0BDFF8:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0BE03A:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0BE03B:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0BE03C:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 10DF88:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00F08C:ConstellationsNewSkills.esp
+    Count: 1

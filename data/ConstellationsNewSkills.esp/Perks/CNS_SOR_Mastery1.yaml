@@ -1,0 +1,32 @@
+FormKey: 0058DC:ConstellationsNewSkills.esp
+EditorID: CNS_SOR_Mastery1
+Name:
+  TargetLanguage: English
+  Value: Sorcerer
+Description:
+  TargetLanguage: English
+  Value: Staves are 20% more efficient.
+NumRanks: 1
+Playable: True
+NextPerk: 0058DD:ConstellationsNewSkills.esp
+Effects:
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: HasPerkConditionData
+        Perk: 0058DD:ConstellationsNewSkills.esp
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInListConditionData
+        FormList: 00285E:ConstellationsNewSkills.esp
+      ComparisonValue: 1
+  EntryPoint: ModSpellCost
+  PerkConditionTabCount: 2
+  Modification: Multiply
+  Value: 0.83

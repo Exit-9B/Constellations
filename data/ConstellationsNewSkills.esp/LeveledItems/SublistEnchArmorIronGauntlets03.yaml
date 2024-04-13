@@ -1,0 +1,35 @@
+FormKey: 0B508B:Skyrim.esm
+EditorID: SublistEnchArmorIronGauntlets03
+Version2: 6
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 0AD57C:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0AD57E:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0AD584:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0AD586:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 08B68A:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00EAF3:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00F615:ConstellationsNewSkills.esp
+    Count: 1

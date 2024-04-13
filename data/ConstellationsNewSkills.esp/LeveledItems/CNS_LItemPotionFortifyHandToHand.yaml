@@ -1,0 +1,70 @@
+FormKey: 00E538:ConstellationsNewSkills.esp
+EditorID: CNS_LItemPotionFortifyHandToHand
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 00E521:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00E521:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00E521:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00E521:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 10
+    Reference: 00E522:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 11
+    Reference: 00E522:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 12
+    Reference: 00E522:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 13
+    Reference: 00E522:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 20
+    Reference: 00E524:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 21
+    Reference: 00E524:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 22
+    Reference: 00E524:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 23
+    Reference: 00E524:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 30
+    Reference: 00E526:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 31
+    Reference: 00E526:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 32
+    Reference: 00E526:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 33
+    Reference: 00E526:ConstellationsNewSkills.esp
+    Count: 1

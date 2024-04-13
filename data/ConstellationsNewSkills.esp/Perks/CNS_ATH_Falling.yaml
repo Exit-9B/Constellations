@@ -1,0 +1,30 @@
+FormKey: 008417:ConstellationsNewSkills.esp
+EditorID: CNS_ATH_Falling
+Name:
+  TargetLanguage: English
+  Value: Acrobat
+Description:
+  TargetLanguage: English
+  Value: 90% reduced damage from falling.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D64:ConstellationsNewSkills.esp
+  ComparisonValue: 60
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 008423:ConstellationsNewSkills.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkEntryPointModifyValue
+  EntryPoint: ModFallingDamage
+  PerkConditionTabCount: 1
+  Modification: Multiply
+  Value: 0.1

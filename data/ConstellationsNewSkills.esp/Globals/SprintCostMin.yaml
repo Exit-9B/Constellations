@@ -1,0 +1,9 @@
+MutagenObjectType: GlobalFloat
+FormKey: 00DFB9:ConstellationsNewSkills.esp
+MajorRecordFlagsRaw: 64
+EditorID: SprintCostMin
+SkyrimMajorRecordFlags:
+- 0x40
+MajorFlags:
+- Constant
+Data: 1

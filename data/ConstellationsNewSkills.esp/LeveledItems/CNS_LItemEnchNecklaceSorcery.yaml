@@ -1,0 +1,30 @@
+FormKey: 00FB9A:ConstellationsNewSkills.esp
+EditorID: CNS_LItemEnchNecklaceSorcery
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 00F5F5:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 8
+    Reference: 00F5FD:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 16
+    Reference: 00F609:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 24
+    Reference: 00F618:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 32
+    Reference: 00F624:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 40
+    Reference: 00F62C:ConstellationsNewSkills.esp
+    Count: 1

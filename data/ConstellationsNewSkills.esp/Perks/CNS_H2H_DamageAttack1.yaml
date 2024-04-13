@@ -1,0 +1,58 @@
+FormKey: 008EF7:ConstellationsNewSkills.esp
+EditorID: CNS_H2H_DamageAttack1
+Name:
+  TargetLanguage: English
+  Value: Disorientation
+Description:
+  TargetLanguage: English
+  Value: Unarmed attacks briefly reduce the opponent's attack damage by 3%.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D61:ConstellationsNewSkills.esp
+  ComparisonValue: 30
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0058E1:ConstellationsNewSkills.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True
+NextPerk: 008EF9:ConstellationsNewSkills.esp
+Effects:
+- MutagenObjectType: PerkEntryPointSelectSpell
+  Priority: 1
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: HasPerkConditionData
+        Perk: 008EF9:ConstellationsNewSkills.esp
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: HasPerkConditionData
+        Perk: 008EF1:ConstellationsNewSkills.esp
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsAttackTypeConditionData
+        Keyword: 0914E5:Skyrim.esm
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        Object: 0001F4:Skyrim.esm
+      ComparisonValue: 1
+  EntryPoint: ApplyCombatHitSpell
+  PerkConditionTabCount: 3
+  Spell: 008EF4:ConstellationsNewSkills.esp

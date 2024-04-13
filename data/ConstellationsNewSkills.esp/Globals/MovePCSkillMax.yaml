@@ -1,0 +1,9 @@
+MutagenObjectType: GlobalFloat
+FormKey: 0022FB:ConstellationsNewSkills.esp
+MajorRecordFlagsRaw: 64
+EditorID: MovePCSkillMax
+SkyrimMajorRecordFlags:
+- 0x40
+MajorFlags:
+- Constant
+Data: 1.068

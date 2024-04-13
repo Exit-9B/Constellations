@@ -1,0 +1,21 @@
+FormKey: 00E53E:ConstellationsNewSkills.esp
+EditorID: CNS_LItemPotionFortifySorceryBest
+Flags:
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 00E530:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 10
+    Reference: 00E532:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 20
+    Reference: 00E534:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 30
+    Reference: 00E536:ConstellationsNewSkills.esp
+    Count: 1

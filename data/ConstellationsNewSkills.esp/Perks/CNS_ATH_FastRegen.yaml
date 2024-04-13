@@ -1,0 +1,27 @@
+FormKey: 008421:ConstellationsNewSkills.esp
+EditorID: CNS_ATH_FastRegen
+Name:
+  TargetLanguage: English
+  Value: Second Wind
+Description:
+  TargetLanguage: English
+  Value: Stamina regenerates 10 times faster out of combat.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D64:ConstellationsNewSkills.esp
+  ComparisonValue: 90
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 00D4F5:ConstellationsNewSkills.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 008420:ConstellationsNewSkills.esp

@@ -1,0 +1,24 @@
+FormKey: 00D4F5:ConstellationsNewSkills.esp
+EditorID: CNS_ATH_SprintReduceCost
+Name:
+  TargetLanguage: English
+  Value: Perseverance
+Description:
+  TargetLanguage: English
+  Value: Sprinting drains 25% less stamina.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D64:ConstellationsNewSkills.esp
+  ComparisonValue: 60
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 00CA31:ConstellationsNewSkills.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True

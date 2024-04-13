@@ -1,0 +1,39 @@
+FormKey: 0058E5:ConstellationsNewSkills.esp
+EditorID: CNS_H2H_Mastery5
+Name:
+  TargetLanguage: English
+  Value: Brawler
+Description:
+  TargetLanguage: English
+  Value: Unarmed attacks do twice as much damage.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D61:ConstellationsNewSkills.esp
+  ComparisonValue: 80
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0058E4:ConstellationsNewSkills.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        Object: 0001F4:Skyrim.esm
+      ComparisonValue: 1
+  EntryPoint: ModAttackDamage
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 2

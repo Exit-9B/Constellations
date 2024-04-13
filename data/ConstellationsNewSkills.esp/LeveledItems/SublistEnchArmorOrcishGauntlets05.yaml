@@ -1,0 +1,35 @@
+FormKey: 0FD99B:Skyrim.esm
+EditorID: SublistEnchArmorOrcishGauntlets05
+Version2: 4
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 0CF7DA:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0CF7EF:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0CF7F2:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0CF7F8:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0CF7FB:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00EB09:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00F62B:ConstellationsNewSkills.esp
+    Count: 1

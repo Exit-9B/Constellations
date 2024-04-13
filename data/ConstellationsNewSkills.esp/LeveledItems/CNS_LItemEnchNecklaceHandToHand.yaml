@@ -1,0 +1,30 @@
+FormKey: 00F635:ConstellationsNewSkills.esp
+EditorID: CNS_LItemEnchNecklaceHandToHand
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 00E571:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 8
+    Reference: 00E57A:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 16
+    Reference: 00E586:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 24
+    Reference: 00EAF6:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 32
+    Reference: 00EB02:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 40
+    Reference: 00EB0A:ConstellationsNewSkills.esp
+    Count: 1

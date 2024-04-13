@@ -1,0 +1,31 @@
+FormKey: 00B4A6:ConstellationsNewSkills.esp
+EditorID: CNS_SOR_PerkMagickaRecovery
+Name:
+  TargetLanguage: English
+  Value: Attunement
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- NoAbsorbOrReflect
+Type: Ability
+ChargeTime: 0.5
+Effects:
+- BaseEffect: 00B4A5:ConstellationsNewSkills.esp
+  Data:
+    Magnitude: 50
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetEquippedItemTypeConditionData
+    ComparisonValue: 8
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetEquippedItemTypeConditionData
+      ItemSource: Right
+    ComparisonValue: 8

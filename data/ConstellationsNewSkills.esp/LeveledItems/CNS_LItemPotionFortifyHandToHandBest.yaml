@@ -1,0 +1,21 @@
+FormKey: 00E53A:ConstellationsNewSkills.esp
+EditorID: CNS_LItemPotionFortifyHandToHandBest
+Flags:
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 00E521:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 10
+    Reference: 00E522:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 20
+    Reference: 00E524:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 30
+    Reference: 00E526:ConstellationsNewSkills.esp
+    Count: 1

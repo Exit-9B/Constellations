@@ -1,0 +1,24 @@
+FormKey: 004E17:ConstellationsNewSkills.esp
+EditorID: CNS_ATH_SprintEvade
+Name:
+  TargetLanguage: English
+  Value: Afterimage
+Description:
+  TargetLanguage: English
+  Value: 50% chance to dodge incoming arrows while sprinting.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D64:ConstellationsNewSkills.esp
+  ComparisonValue: 70
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 008423:ConstellationsNewSkills.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True

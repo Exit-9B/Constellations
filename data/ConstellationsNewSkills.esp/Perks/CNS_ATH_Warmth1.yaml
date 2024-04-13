@@ -1,0 +1,28 @@
+FormKey: 008428:ConstellationsNewSkills.esp
+EditorID: CNS_ATH_Warmth1
+Name:
+  TargetLanguage: English
+  Value: Adaptation
+Description:
+  TargetLanguage: English
+  Value: 20% resistance to frost damage and +10 warmth rating.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D64:ConstellationsNewSkills.esp
+  ComparisonValue: 30
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0058F7:ConstellationsNewSkills.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True
+NextPerk: 00C4CB:ConstellationsNewSkills.esp
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 008427:ConstellationsNewSkills.esp

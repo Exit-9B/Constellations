@@ -1,0 +1,47 @@
+FormKey: 004E19:ConstellationsNewSkills.esp
+EditorID: CNS_ModObjectManager
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CNS_ModObjects
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StaffEnchantmentList
+      Object: 00285E:ConstellationsNewSkills.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UnarmedTemper
+      Object: 004E18:ConstellationsNewSkills.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SprintEvade
+      Object: 004E17:ConstellationsNewSkills.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkillSorceryLevel
+      Object: 000D67:ConstellationsNewSkills.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkillAthleticsLevel
+      Object: 000D64:ConstellationsNewSkills.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkillHandToHandLevel
+      Object: 000D61:ConstellationsNewSkills.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StaffAbsorb
+      Object: 00434D:ConstellationsNewSkills.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StaffReflect
+      Object: 00434E:ConstellationsNewSkills.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SprintReduceCost
+      Object: 00D4F5:ConstellationsNewSkills.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StaffSpeed
+      Object: 006921:ConstellationsNewSkills.esp
+  Versioning:
+  - Break0
+  ExtraBindDataVersion: 0
+  FileName: ''
+Name:
+  TargetLanguage: English
+  Value: Native Plugin Object Manager
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce

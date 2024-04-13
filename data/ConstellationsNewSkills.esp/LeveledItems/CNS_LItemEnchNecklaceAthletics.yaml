@@ -1,0 +1,30 @@
+FormKey: 00FB98:ConstellationsNewSkills.esp
+EditorID: CNS_LItemEnchNecklaceAthletics
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 00F070:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 8
+    Reference: 00F076:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 16
+    Reference: 00F07F:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 24
+    Reference: 00F088:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 32
+    Reference: 00F08E:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 40
+    Reference: 00F091:ConstellationsNewSkills.esp
+    Count: 1

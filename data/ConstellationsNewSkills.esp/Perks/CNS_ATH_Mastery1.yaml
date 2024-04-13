@@ -1,0 +1,14 @@
+FormKey: 0058F7:ConstellationsNewSkills.esp
+EditorID: CNS_ATH_Mastery1
+Name:
+  TargetLanguage: English
+  Value: Swift Step
+Description:
+  TargetLanguage: English
+  Value: Move 5% faster.
+NumRanks: 1
+Playable: True
+NextPerk: 0058F9:ConstellationsNewSkills.esp
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 0058EE:ConstellationsNewSkills.esp

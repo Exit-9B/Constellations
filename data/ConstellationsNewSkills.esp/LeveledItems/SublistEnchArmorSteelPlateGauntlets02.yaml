@@ -1,0 +1,35 @@
+FormKey: 092A0F:Skyrim.esm
+EditorID: SublistEnchArmorSteelPlateGauntlets02
+Version2: 4
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 08B699:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 03DF2B:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 03DF66:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 03DF73:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 03DF76:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00E57D:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00F601:ConstellationsNewSkills.esp
+    Count: 1

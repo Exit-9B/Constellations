@@ -1,0 +1,23 @@
+FormKey: 00E540:ConstellationsNewSkills.esp
+EditorID: CNS_EnchFortifyHandToHandConstantSelf
+Name:
+  TargetLanguage: English
+  Value: Fortify Hand to Hand
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- 00E53F:ConstellationsNewSkills.esp
+Flags:
+- Recover
+- NoDuration
+- NoArea
+- PowerAffectsMagnitude
+BaseCost: 22
+EnchantShader: 092DEC:Skyrim.esm
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  ActorValue: OneHandedSkillAdvance
+DualCastScale: 1
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Unarmed attacks do <mag>% more damage.

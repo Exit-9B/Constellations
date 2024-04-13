@@ -1,0 +1,14 @@
+FormKey: 00E567:ConstellationsNewSkills.esp
+EditorID: CNS_EnchArmorFortifySorcery02
+Name:
+  TargetLanguage: English
+  Value: Fortify Sorcery
+EnchantmentCost: 647
+EnchantmentAmount: 647
+EnchantType: Enchantment
+BaseEnchantment: 00E563:ConstellationsNewSkills.esp
+WornRestrictions: 00E547:ConstellationsNewSkills.esp
+Effects:
+- BaseEffect: 00E544:ConstellationsNewSkills.esp
+  Data:
+    Magnitude: 20

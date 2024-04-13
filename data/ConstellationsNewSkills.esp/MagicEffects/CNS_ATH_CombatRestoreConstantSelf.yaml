@@ -1,0 +1,28 @@
+FormKey: 00841B:ConstellationsNewSkills.esp
+EditorID: CNS_ATH_CombatRestoreConstantSelf
+VirtualMachineAdapter:
+  Scripts:
+  - Name: magicCastAnotherSpellScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CastSpellName
+      Object: 00841A:ConstellationsNewSkills.esp
+    - MutagenObjectType: ScriptBoolProperty
+      Name: AimAtTargets
+Name:
+  TargetLanguage: English
+  Value: Fight or Flight
+Flags:
+- NoDuration
+- NoMagnitude
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

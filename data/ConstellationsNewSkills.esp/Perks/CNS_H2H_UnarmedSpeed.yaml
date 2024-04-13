@@ -1,0 +1,27 @@
+FormKey: 003888:ConstellationsNewSkills.esp
+EditorID: CNS_H2H_UnarmedSpeed
+Name:
+  TargetLanguage: English
+  Value: Fast Strike
+Description:
+  TargetLanguage: English
+  Value: Unarmed attacks are 15% faster.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D61:ConstellationsNewSkills.esp
+  ComparisonValue: 40
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0058E1:ConstellationsNewSkills.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 003885:ConstellationsNewSkills.esp
