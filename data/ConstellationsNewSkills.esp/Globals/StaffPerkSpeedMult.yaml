@@ -1,7 +1,6 @@
 MutagenObjectType: GlobalFloat
 FormKey: 010BCC:ConstellationsNewSkills.esp
 MajorRecordFlagsRaw: 64
-VersionControl: 12429
 EditorID: StaffPerkSpeedMult
 SkyrimMajorRecordFlags:
 - 0x40

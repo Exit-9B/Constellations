@@ -39,36 +39,6 @@ Effects:
       Unknown1: 0x000000
       Data:
         MutagenObjectType: EPMagic_SpellHasSkillConditionData
-        ActorValue: Alteration
-      ComparisonValue: 1
-    - MutagenObjectType: ConditionFloat
-      Flags:
-      - OR
-      Unknown1: 0x000000
-      Data:
-        MutagenObjectType: EPMagic_SpellHasSkillConditionData
-        ActorValue: Conjuration
-      ComparisonValue: 1
-  EntryPoint: ModSpellDuration
-  PerkConditionTabCount: 3
-  Modification: Multiply
-  Value: 1.5
-- MutagenObjectType: PerkEntryPointModifyValue
-  Conditions:
-  - RunOnTabIndex: 1
-    Conditions:
-    - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
-      Data:
-        MutagenObjectType: IsInListConditionData
-        FormList: 00285E:ConstellationsNewSkills.esp
-      ComparisonValue: 1
-    - MutagenObjectType: ConditionFloat
-      Flags:
-      - OR
-      Unknown1: 0x000000
-      Data:
-        MutagenObjectType: EPMagic_SpellHasSkillConditionData
         ActorValue: Destruction
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
@@ -88,6 +58,36 @@ Effects:
         ActorValue: Restoration
       ComparisonValue: 1
   EntryPoint: ModSpellMagnitude
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 1.5
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: IsInListConditionData
+        FormList: 00285E:ConstellationsNewSkills.esp
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Alteration
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Conjuration
+      ComparisonValue: 1
+  EntryPoint: ModSpellDuration
   PerkConditionTabCount: 3
   Modification: Multiply
   Value: 1.5

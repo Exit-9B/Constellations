@@ -46,6 +46,12 @@ Spriggit_Deserialize(
 	EXCLUDE_FROM_ALL
 )
 
+file(GLOB SCRIPT_SOURCES
+	LIST_DIRECTORIES false
+	CONFIGURE_DEPENDS
+	"${PROJECT_SOURCE_DIR}/scripts/*.psc"
+)
+
 if(SkyrimSE_PATH)
 	Papyrus_Add(
 		"Papyrus"
@@ -53,16 +59,7 @@ if(SkyrimSE_PATH)
 		IMPORTS
 			"${PROJECT_SOURCE_DIR}/scripts"
 			"${PROJECT_SOURCE_DIR}/scripts/include"
-		SOURCES
-			"${PROJECT_SOURCE_DIR}/scripts/CNS_MagicAddToFaction.psc"
-			"${PROJECT_SOURCE_DIR}/scripts/CNS_MagicEnsureInFaction.psc"
-			"${PROJECT_SOURCE_DIR}/scripts/CNS_ModObjects.psc"
-			"${PROJECT_SOURCE_DIR}/scripts/CNS_TIF__TrainingEnthir.psc"
-			"${PROJECT_SOURCE_DIR}/scripts/CNS_TIF__TrainingErandur.psc"
-			"${PROJECT_SOURCE_DIR}/scripts/CNS_TIF__TrainingMauhulakh.psc"
-			"${PROJECT_SOURCE_DIR}/scripts/CNS_TIF__TrainingNjadaStonearm.psc"
-			"${PROJECT_SOURCE_DIR}/scripts/CNS_TIF__TrainingVipirtheFleet.psc"
-			"${PROJECT_SOURCE_DIR}/scripts/CNS_TIF__TrainingWylandriah.psc"
+		SOURCES ${SCRIPT_SOURCES}
 		OPTIMIZE
 		ANONYMIZE
 		COMPONENT ${CMAKE_INSTALL_DEFAULT_COMPONENT_NAME}

@@ -10,7 +10,7 @@ VirtualMachineAdapter:
       ScriptName: CNS_TIF__TrainingMauhulakh
       FragmentName: Fragment_0
 Flags: {}
-PreviousDialog: Null
+PreviousDialog: 010662:ConstellationsNewSkills.esp
 FavorLevel: None
 Responses:
 - EmotionValue: 50

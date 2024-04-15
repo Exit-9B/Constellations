@@ -4,11 +4,11 @@ VirtualMachineAdapter:
   Scripts:
   - Name: magicCastAnotherSpellScript
     Properties:
+    - MutagenObjectType: ScriptBoolProperty
+      Name: AimAtTargets
     - MutagenObjectType: ScriptObjectProperty
       Name: CastSpellName
       Object: 00841A:ConstellationsNewSkills.esp
-    - MutagenObjectType: ScriptBoolProperty
-      Name: AimAtTargets
 Name:
   TargetLanguage: English
   Value: Fight or Flight

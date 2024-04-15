@@ -1,0 +1,14 @@
+MutagenObjectType: PlacedObject
+FormKey: 015CDB:ConstellationsNewSkills.esp
+MajorRecordFlagsRaw: 3072
+VersionControl: 12431
+SkyrimMajorRecordFlags:
+- 0x400
+- InitiallyDisabled
+Base: 015CD6:ConstellationsNewSkills.esp
+LinkedReferences:
+- KeywordOrReference: 05D5E6:Skyrim.esm
+  Reference: 039D8A:Dragonborn.esm
+Placement:
+  Position: 2507.3474, 17117.195, 10572.219
+  Rotation: 0, 0, 0.28878567

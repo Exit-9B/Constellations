@@ -1,0 +1,15 @@
+FormKey: 01C263:Dragonborn.esm
+MajorRecordFlagsRaw: 1024
+Version2: 1
+SkyrimMajorRecordFlags:
+- 0x400
+Flags:
+- HasWater
+Grid:
+  Flags: -2055070976
+WaterHeight: 3.4028235E+38
+Timestamp: 12431
+PersistentTimestamp: 12431
+PersistentUnknownGroupData: 1
+MajorFlags:
+- Persistent

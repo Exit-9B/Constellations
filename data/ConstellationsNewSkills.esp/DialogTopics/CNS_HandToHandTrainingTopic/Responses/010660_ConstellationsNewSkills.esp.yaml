@@ -2,7 +2,7 @@ FormKey: 010660:ConstellationsNewSkills.esp
 Flags:
   Flags:
   - Random
-PreviousDialog: 010663:ConstellationsNewSkills.esp
+PreviousDialog: Null
 FavorLevel: None
 ResponseData: 0BD7DF:Skyrim.esm
 Conditions:
