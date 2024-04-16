@@ -45,14 +45,14 @@ Effects:
       Unknown1: 0x000000
       Data:
         MutagenObjectType: GetGraphVariableIntConditionData
-        FirstUnusedIntParameter: -1548110288
+        FirstUnusedIntParameter: -1532593136
         GraphVariable: IsCastingRight
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
       Unknown1: 0x000000
       Data:
         MutagenObjectType: GetGraphVariableIntConditionData
-        FirstUnusedIntParameter: -1548110064
+        FirstUnusedIntParameter: -1532592912
         GraphVariable: IsCastingLeft
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
@@ -67,7 +67,7 @@ Effects:
       Unknown1: 0x000000
       Data:
         MutagenObjectType: GetGraphVariableIntConditionData
-        FirstUnusedIntParameter: -1548109744
+        FirstUnusedIntParameter: -1532592592
         GraphVariable: IsCastingLeft
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
@@ -76,7 +76,7 @@ Effects:
       Unknown1: 0x000000
       Data:
         MutagenObjectType: GetGraphVariableIntConditionData
-        FirstUnusedIntParameter: -1548109600
+        FirstUnusedIntParameter: -1532592448
         GraphVariable: IsCastingRight
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat

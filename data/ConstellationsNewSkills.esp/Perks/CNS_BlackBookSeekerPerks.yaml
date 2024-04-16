@@ -1,31 +1,27 @@
-FormKey: 002DC1:ConstellationsNewSkills.esp
-EditorID: CNS_SOR_StaffPower2
-Name:
-  TargetLanguage: English
-  Value: Catalyst
+FormKey: 01ADDF:ConstellationsNewSkills.esp
+EditorID: CNS_BlackBookSeekerPerks
 Description:
   TargetLanguage: English
-  Value: Staves are 50% more powerful.
-Conditions:
-- MutagenObjectType: ConditionFloat
-  CompareOperator: GreaterThanOrEqualTo
-  Unknown1: 0x000000
-  Data:
-    MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D67:ConstellationsNewSkills.esp
-  ComparisonValue: 60
-- MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Data:
-    MutagenObjectType: HasPerkConditionData
-    Perk: 002DC0:ConstellationsNewSkills.esp
-  ComparisonValue: 1
+  Value: ''
 NumRanks: 1
 Playable: True
 Effects:
 - MutagenObjectType: PerkEntryPointModifyValue
-  Priority: 1
+  Priority: 2
   Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: HasPerkConditionData
+        Perk: 03399F:Dragonborn.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 020E9A:Dragonborn.esm
+      ComparisonValue: 2
   - RunOnTabIndex: 1
     Conditions:
     - MutagenObjectType: ConditionFloat
@@ -43,8 +39,6 @@ Effects:
         ActorValue: Alteration
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Flags:
-      - OR
       Unknown1: 0x000000
       Data:
         MutagenObjectType: EPMagic_SpellHasSkillConditionData
@@ -53,9 +47,23 @@ Effects:
   EntryPoint: ModSpellDuration
   PerkConditionTabCount: 3
   Modification: Multiply
-  Value: 1.5
+  Value: 1.1
 - MutagenObjectType: PerkEntryPointModifyValue
+  Priority: 1
   Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: HasPerkConditionData
+        Perk: 03399F:Dragonborn.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 020E9A:Dragonborn.esm
+      ComparisonValue: 2
   - RunOnTabIndex: 1
     Conditions:
     - MutagenObjectType: ConditionFloat
@@ -81,8 +89,6 @@ Effects:
         ActorValue: Illusion
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Flags:
-      - OR
       Unknown1: 0x000000
       Data:
         MutagenObjectType: EPMagic_SpellHasSkillConditionData
@@ -91,4 +97,31 @@ Effects:
   EntryPoint: ModSpellMagnitude
   PerkConditionTabCount: 3
   Modification: Multiply
-  Value: 1.5
+  Value: 1.1
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: HasPerkConditionData
+        Perk: 03399F:Dragonborn.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 020E9A:Dragonborn.esm
+      ComparisonValue: 1
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetIsIDConditionData
+        Object: 0001F4:Skyrim.esm
+      ComparisonValue: 1
+  EntryPoint: ModAttackDamage
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 1.1

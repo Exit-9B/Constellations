@@ -1,16 +1,21 @@
 FormKey: 015CD6:ConstellationsNewSkills.esp
-VersionControl: 12431
 EditorID: CNS_ApocryphaConstellationActivator_HandToHand
 VirtualMachineAdapter:
   Scripts:
   - Name: CNS_ApocryphaConstellationActivator
     Properties:
     - MutagenObjectType: ScriptObjectProperty
+      Name: AltarSkillMessagePlural
+      Object: 015CD0:ConstellationsNewSkills.esp
+    - MutagenObjectType: ScriptObjectProperty
       Name: DLC2AltarNotInCombatMSG
       Object: 01FF36:Dragonborn.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: DLC2AltarPerkPointsRefundedPlural
-      Object: 039DAD:Dragonborn.esm
+      Name: DLC2AltarPerkPointsRefundedSingular
+      Object: 01FE90:Dragonborn.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AltarSkillMessageSingular
+      Object: 015CD1:ConstellationsNewSkills.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: DLC2ApocryphaRewardSpell
       Object: 029A26:Dragonborn.esm
@@ -18,20 +23,14 @@ VirtualMachineAdapter:
       Name: DLC2AltarNoSoulsMSG
       Object: 01FE96:Dragonborn.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: DLC2AltarPerkPointsRefundedSingular
-      Object: 01FE90:Dragonborn.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DLC2AltarNoPerksInThisSkillMSG
-      Object: 039D99:Dragonborn.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Perks
       Object: 015CCD:ConstellationsNewSkills.esp
     - MutagenObjectType: ScriptObjectProperty
-      Name: AltarSkillMessagePlural
-      Object: 015CD0:ConstellationsNewSkills.esp
+      Name: DLC2AltarPerkPointsRefundedPlural
+      Object: 039DAD:Dragonborn.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: AltarSkillMessageSingular
-      Object: 015CD1:ConstellationsNewSkills.esp
+      Name: DLC2AltarNoPerksInThisSkillMSG
+      Object: 039D99:Dragonborn.esm
 ObjectBounds:
   First: -114, 203, -48
   Second: 114, 796, 180

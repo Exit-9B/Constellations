@@ -5,7 +5,7 @@ Flags:
 - HasWater
 Grid:
   Point: 0, 4
-  Flags: -2055070976
+  Flags: -1532653056
 MaxHeightData:
   Offset: 7808
   HeightMap:
@@ -45,5 +45,5 @@ WaterHeight: 3.4028235E+38
 Regions:
 - 01C49A:Dragonborn.esm
 Location: 03A1E7:Dragonborn.esm
-Timestamp: 12431
+Timestamp: 12432
 UnknownGroupData: 1

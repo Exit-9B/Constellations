@@ -6,10 +6,10 @@ SkyrimMajorRecordFlags:
 Flags:
 - HasWater
 Grid:
-  Flags: -2055070976
+  Flags: -1532653056
 WaterHeight: 3.4028235E+38
-Timestamp: 12431
-PersistentTimestamp: 12431
+Timestamp: 12432
+PersistentTimestamp: 12432
 PersistentUnknownGroupData: 1
 MajorFlags:
 - Persistent

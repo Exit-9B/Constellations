@@ -1,7 +1,6 @@
 MutagenObjectType: PlacedObject
 FormKey: 015CD9:ConstellationsNewSkills.esp
 MajorRecordFlagsRaw: 3072
-VersionControl: 12431
 SkyrimMajorRecordFlags:
 - 0x400
 - InitiallyDisabled
