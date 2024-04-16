@@ -11,17 +11,17 @@ VirtualMachineAdapter:
     - Name: CNS_InitScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
+        Name: CNS_H2H_AutoPerk
+        Object: 00017D:ConstellationsNewSkills.esp
+      - MutagenObjectType: ScriptObjectProperty
         Name: CNS_AlchemyEffects
         Object: 000191:ConstellationsNewSkills.esp
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CNS_BlackBookSeekerPerks
-        Object: 000192:ConstellationsNewSkills.esp
       - MutagenObjectType: ScriptObjectProperty
         Name: CNS_EnchantingEffects
         Object: 000190:ConstellationsNewSkills.esp
       - MutagenObjectType: ScriptObjectProperty
-        Name: CNS_H2H_AutoPerk
-        Object: 00017D:ConstellationsNewSkills.esp
+        Name: CNS_BlackBookSeekerPerks
+        Object: 000192:ConstellationsNewSkills.esp
 Name:
   TargetLanguage: English
   Value: Constellations Init Quest

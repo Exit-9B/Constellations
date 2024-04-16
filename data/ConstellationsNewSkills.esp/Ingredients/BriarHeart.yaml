@@ -3,17 +3,17 @@ EditorID: BriarHeart
 Version2: 3
 VirtualMachineAdapter:
   Scripts:
-  - Name: briarheartingredientscript
+  - Name: briarheartIngredientScript
     Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dunReanimateSelf
+      Object: 0E1529:Skyrim.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: ArmorBriarHeartEmpty
       Object: 05D009:Skyrim.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: ArmorBriarHeart
       Object: 05D008:Skyrim.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: dunReanimateSelf
-      Object: 0E1529:Skyrim.esm
 ObjectBounds:
   First: -2, -2, 0
   Second: 2, 2, 7

@@ -92,10 +92,18 @@ Effects:
         ActorValue: Illusion
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
       Unknown1: 0x000000
       Data:
         MutagenObjectType: EPMagic_SpellHasSkillConditionData
         ActorValue: Restoration
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+        Keyword: 01EA72:Skyrim.esm
       ComparisonValue: 1
   EntryPoint: ModSpellMagnitude
   PerkConditionTabCount: 3
