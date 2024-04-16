@@ -1,0 +1,6 @@
+$Athletics_Name	Athletics
+$HandToHand_Name	Hand-to-hand
+$Sorcery_Name	Sorcery
+$Athletics_Description	Those trained in athletics are able to run faster and maintain their stamina longer.
+$HandToHand_Description	The art of hand-to-hand combat. Those trained in this skill can strike faster and harder with their fists.
+$Sorcery_Description	The art of drawing power from magical objects such as staves and scrolls. Skilled sorcerers can even manipulate magic in the world around them.

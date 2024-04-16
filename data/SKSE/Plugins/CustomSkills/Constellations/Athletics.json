@@ -1,0 +1,77 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/CustomSkills/config_ref/docs/schema/skill.json",
+  "id": "Athletics",
+  "name": "$Athletics_Name",
+  "description": "$Athletics_Description",
+  "level": "ConstellationsNewSkills.esp|012",
+  "ratio": "ConstellationsNewSkills.esp|013",
+  "legendary": "ConstellationsNewSkills.esp|014",
+  "experienceFormula": {
+    "useMult": 7.0,
+    "useOffset": 0.0,
+    "improveMult": 0.5,
+    "improveOffset": 120.0,
+    "enableXPPerRank": true
+  },
+  "nodes": [
+    {
+      "id": "Mastery",
+      "perk": "ConstellationsNewSkills.esp|175",
+      "x": 0.0,
+      "y": 0.0,
+      "links": [ "Warmth", "CombatRestore" ]
+    },
+    {
+      "id": "Warmth",
+      "perk": "ConstellationsNewSkills.esp|188",
+      "x": -2.0,
+      "y": 0.6
+    },
+    {
+      "id": "CombatRestore",
+      "perk": "ConstellationsNewSkills.esp|186",
+      "x": -0.5,
+      "y": 1.8,
+      "links": [ "PredatorFriend", "Falling", "SprintEvade" ]
+    },
+    {
+      "id": "PredatorFriend",
+      "perk": "ConstellationsNewSkills.esp|18E",
+      "x": -2.0,
+      "y": 2.5,
+      "links": [ "SprintReduceCost" ]
+    },
+    {
+      "id": "SprintReduceCost",
+      "perk": "ConstellationsNewSkills.esp|18F",
+      "x": -4.2,
+      "y": 2.6,
+      "links": [ "FastRegen" ]
+    },
+    {
+      "id": "FastRegen",
+      "perk": "ConstellationsNewSkills.esp|185",
+      "x": -6.1,
+      "y": 4.5
+    },
+    {
+      "id": "Falling",
+      "perk": "ConstellationsNewSkills.esp|184",
+      "x": 1.0,
+      "y": 2.9
+    },
+    {
+      "id": "SprintEvade",
+      "perk": "ConstellationsNewSkills.esp|168",
+      "x": -0.6,
+      "y": 3.5,
+      "links":  [ "SlowTime" ]
+    },
+    {
+      "id": "SlowTime",
+      "perk": "ConstellationsNewSkills.esp|17E",
+      "x": -1.2,
+      "y": 5.2
+    }
+  ]
+}

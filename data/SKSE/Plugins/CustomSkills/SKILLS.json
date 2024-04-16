@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/CustomSkills/config_ref/docs/schema/CustomSkill.json",
+  "version": 1,
+  "skydome": {
+    "model": "Constellations/Interface/INTPerkSkydome.nif",
+    "cameraRightPoint": 1
+  },
+  "skills": [
+    "Enchanting",
+    "Smithing",
+    "HeavyArmor",
+    "Block",
+    { "$ref": "Constellations/HandToHand.json" },
+    "TwoHanded",
+    "OneHanded",
+    "Marksman",
+    { "$ref": "Constellations/Athletics.json" },
+    "LightArmor",
+    "Sneak",
+    "Lockpicking",
+    "Pickpocket",
+    "Speechcraft",
+    "Alchemy",
+    "Illusion",
+    "Conjuration",
+    "Destruction",
+    "Restoration",
+    "Alteration",
+    { "$ref": "Constellations/Sorcery.json" }
+  ]
+}

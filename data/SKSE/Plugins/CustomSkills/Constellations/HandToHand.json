@@ -1,0 +1,78 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/CustomSkills/config_ref/docs/schema/skill.json",
+  "id": "HandtoHand",
+  "name": "$HandToHand_Name",
+  "description": "$HandToHand_Description",
+  "level": "ConstellationsNewSkills.esp|00F",
+  "ratio": "ConstellationsNewSkills.esp|010",
+  "legendary": "ConstellationsNewSkills.esp|011",
+  "experienceFormula": {
+    "useMult": 0.8,
+    "useOffset": 27.0,
+    "improveMult": 2.0,
+    "improveOffset": 0.0,
+    "enableXPPerRank": true
+  },
+  "nodes": [
+    {
+      "id": "Mastery",
+      "perk": "ConstellationsNewSkills.esp|16F",
+      "x": 0,
+      "y": 0,
+      "links": [ "UnarmedSpeed", "DamageAttack" ]
+    },
+    {
+      "id": "UnarmedSpeed",
+      "perk": "ConstellationsNewSkills.esp|165",
+      "x": -0.5,
+      "y": 1.0,
+      "links": [ "DualUnarmedSpeed", "Danger" ]
+    },
+    {
+      "id": "Danger",
+      "perk": "ConstellationsNewSkills.esp|183",
+      "x": -1.1,
+      "y": 2.8,
+      "links": [ "PowerKnockdown" ]
+    },
+    {
+      "id": "PowerKnockdown",
+      "perk": "ConstellationsNewSkills.esp|17C",
+      "x": -1.4,
+      "y": 4
+    },
+    {
+      "id": "DamageAttack",
+      "perk": "ConstellationsNewSkills.esp|18A",
+      "x": 2,
+      "y": 0.5,
+      "links": [ "UnarmedTemper" ]
+    },
+    {
+      "id": "UnarmedTemper",
+      "perk": "ConstellationsNewSkills.esp|169",
+      "x": 3,
+      "y": 1.0
+    },
+    {
+      "id": "DualUnarmedSpeed",
+      "perk": "ConstellationsNewSkills.esp|174",
+      "x": -2.0,
+      "y": 1.2,
+      "links": [ "DualPowerDamage" ]
+    },
+    {
+      "id": "DualPowerDamage",
+      "perk": "ConstellationsNewSkills.esp|187",
+      "x": -2.6,
+      "y": 2.5,
+      "links": [ "DualCombo" ]
+    },
+    {
+      "id": "DualCombo",
+      "perk": "ConstellationsNewSkills.esp|189",
+      "x": -2.9,
+      "y": 3.5
+    }
+  ]
+}

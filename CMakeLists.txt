@@ -42,7 +42,7 @@ Spriggit_Deserialize(
 	INPUT "${PROJECT_SOURCE_DIR}/data/ConstellationsNewSkills.esp"
 	OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/ConstellationsNewSkills.esp"
 	PACKAGE Spriggit.Yaml
-	COMPONENT "Plugin"
+	COMPONENT "PackageOnly"
 	EXCLUDE_FROM_ALL
 )
 
@@ -66,11 +66,40 @@ if(SkyrimSE_PATH)
 	)
 endif()
 
+file(GLOB_RECURSE DATA_FILES
+	LIST_DIRECTORIES false
+	CONFIGURE_DEPENDS
+	"${PROJECT_SOURCE_DIR}/data/Interface/*"
+	"${PROJECT_SOURCE_DIR}/data/Meshes/*"
+	"${PROJECT_SOURCE_DIR}/data/Seq/*"
+	"${PROJECT_SOURCE_DIR}/data/SKSE/*"
+	"${PROJECT_SOURCE_DIR}/data/Sound/*"
+	"${PROJECT_SOURCE_DIR}/data/Textures/*"
+)
+
+foreach(FILE ${DATA_FILES})
+	cmake_path(RELATIVE_PATH FILE
+		BASE_DIRECTORY "${PROJECT_SOURCE_DIR}/data"
+		OUTPUT_VARIABLE FILE_RELATIVE_PATH
+	)
+
+	cmake_path(GET FILE_RELATIVE_PATH
+		PARENT_PATH DESTINATION_PATH
+	)
+
+	install(
+		FILES "${FILE}"
+		DESTINATION "${DESTINATION_PATH}"
+		COMPONENT "PackageOnly"
+		EXCLUDE_FROM_ALL
+	)
+endforeach()
+
 set(CPACK_GENERATOR "7Z")
 set(CPACK_PACKAGE_FILE_NAME ${PROJECT_NAME}-${PROJECT_VERSION})
 set(CPACK_INCLUDE_TOPLEVEL_DIRECTORY FALSE)
 set(CPACK_INSTALL_CMAKE_PROJECTS
 	".;${PROJECT_NAME};ALL;/"
-	".;${PROJECT_NAME};Plugin;/"
+	".;${PROJECT_NAME};PackageOnly;/"
 )
 include(CPack)

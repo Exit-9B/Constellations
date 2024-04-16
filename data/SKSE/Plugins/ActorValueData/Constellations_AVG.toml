@@ -1,0 +1,18 @@
+[HandToHandEnchantments]
+type = "Adaptive"
+alias = "OneHandedSkillAdvance"
+
+[HandToHandPotions]
+type = "Adaptive"
+alias = "TwoHandedSkillAdvance"
+
+[SorceryEnchantments]
+type = "Adaptive"
+alias = "ConjurationSkillAdvance"
+
+[SorceryPotions]
+type = "Adaptive"
+alias = "EnchantingSkillAdvance"
+
+[Include]
+"ConstellationsNewSkills.esp" = ["HandToHandEnchantments", "HandToHandPotions", "SorceryEnchantments", "SorceryPotions"]
