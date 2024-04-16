@@ -1,0 +1,40 @@
+FormKey: 02BAA0:Dragonborn.esm
+EditorID: DLC2SublistEnchArmorStalhrimLightGauntlets04
+Version2: 1
+Entries:
+- Data:
+    Level: 1
+    Reference: 0290C1:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0290C4:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0290C7:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0290CA:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0290CD:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0290D0:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0290D3:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 02A0F0:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 02A10B:ConstellationsNewSkills.esp
+    Count: 1

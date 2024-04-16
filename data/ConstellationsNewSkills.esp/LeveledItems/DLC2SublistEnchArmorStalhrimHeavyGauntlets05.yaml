@@ -1,0 +1,32 @@
+FormKey: 02BAA3:Dragonborn.esm
+EditorID: DLC2SublistEnchArmorStalhrimHeavyGauntlets05
+Version2: 1
+Entries:
+- Data:
+    Level: 1
+    Reference: 029228:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 02922B:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 02922E:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 029231:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 029234:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 02A0ED:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 02A108:ConstellationsNewSkills.esp
+    Count: 1

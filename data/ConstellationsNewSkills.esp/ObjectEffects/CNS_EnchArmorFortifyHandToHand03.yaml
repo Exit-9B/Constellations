@@ -2,7 +2,7 @@ FormKey: 00E54D:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorFortifyHandToHand03
 Name:
   TargetLanguage: English
-  Value: Fortify Hand to Hand
+  Value: Fortify Hand-to-Hand
 EnchantmentCost: 758
 EnchantmentAmount: 758
 EnchantType: Enchantment

@@ -1,0 +1,32 @@
+FormKey: 02BA68:Dragonborn.esm
+EditorID: DLC2SublistEnchArmorChitinLightBoots04
+Version2: 1
+Entries:
+- Data:
+    Level: 1
+    Reference: 028FE0:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 028FE3:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 028FE6:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 028FE9:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 028FEC:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 028FEF:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 02A0F7:ConstellationsNewSkills.esp
+    Count: 1

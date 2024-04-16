@@ -5,7 +5,7 @@ Flags:
 - HasWater
 Grid:
   Point: 0, 4
-  Flags: -1532653056
+  Flags: -1532641024
 MaxHeightData:
   Offset: 7808
   HeightMap:

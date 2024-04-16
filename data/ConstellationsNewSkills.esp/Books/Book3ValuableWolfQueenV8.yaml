@@ -2,8 +2,8 @@ FormKey: 01ACFD:Skyrim.esm
 EditorID: Book3ValuableWolfQueenV8
 Version2: 1
 ObjectBounds:
-  First: -9, -11, -2
-  Second: 9, 11, 2
+  First: -11, -15, -3
+  Second: 11, 15, 3
 Name:
   TargetLanguage: English
   Value: The Wolf Queen, v8

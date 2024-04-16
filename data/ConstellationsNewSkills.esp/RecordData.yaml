@@ -5,9 +5,10 @@ ModKey: ConstellationsNewSkills.esp
 GameRelease: SkyrimSE
 ModHeader:
   Stats:
-    NumRecords: 517
-    NextFormID: 151520
+    NumRecords: 589
+    NextFormID: 193037
   Author: Parapets
+  Description: '{{BASH:Delev,Keywords,Stats}}'
   MasterReferences:
   - Master: Skyrim.esm
     FileSize: 0

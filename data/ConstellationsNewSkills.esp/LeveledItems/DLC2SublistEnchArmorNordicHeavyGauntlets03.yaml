@@ -1,0 +1,32 @@
+FormKey: 02BA86:Dragonborn.esm
+EditorID: DLC2SublistEnchArmorNordicHeavyGauntlets03
+Version2: 1
+Entries:
+- Data:
+    Level: 1
+    Reference: 0291C5:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0291C8:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0291CB:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0291CE:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0291D1:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 02A0E9:ConstellationsNewSkills.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 02A104:ConstellationsNewSkills.esp
+    Count: 1
