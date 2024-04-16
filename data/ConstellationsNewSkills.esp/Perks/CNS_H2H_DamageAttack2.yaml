@@ -5,7 +5,7 @@ Name:
   Value: Disorientation
 Description:
   TargetLanguage: English
-  Value: Unarmed attacks briefly reduce the opponent's attack damage by 5%.
+  Value: Unarmed attacks briefly reduce the opponent's attack damage by 10%.
 Conditions:
 - MutagenObjectType: ConditionFloat
   CompareOperator: GreaterThanOrEqualTo
