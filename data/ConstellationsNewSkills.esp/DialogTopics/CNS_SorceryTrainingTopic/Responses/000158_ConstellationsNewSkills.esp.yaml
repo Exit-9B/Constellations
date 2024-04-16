@@ -1,5 +1,8 @@
 FormKey: 000158:ConstellationsNewSkills.esp
-Flags: {}
+Flags:
+  Flags:
+  - Random
+  - RandomEnd
 PreviousDialog: 000157:ConstellationsNewSkills.esp
 FavorLevel: None
 ResponseData: 0BD7E1:Skyrim.esm
@@ -39,3 +42,4 @@ Conditions:
     MutagenObjectType: GetStageDoneConditionData
     Quest: 0242AF:Skyrim.esm
     Stage: 198
+  ComparisonValue: 1

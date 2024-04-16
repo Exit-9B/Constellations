@@ -41,3 +41,4 @@ Conditions:
     MutagenObjectType: GetStageDoneConditionData
     Quest: 0242AF:Skyrim.esm
     Stage: 198
+  ComparisonValue: 1
