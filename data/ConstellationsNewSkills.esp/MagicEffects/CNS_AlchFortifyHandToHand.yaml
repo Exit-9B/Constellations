@@ -1,11 +1,11 @@
-FormKey: 00E51C:ConstellationsNewSkills.esp
+FormKey: 00002E:ConstellationsNewSkills.esp
 EditorID: CNS_AlchFortifyHandToHand
 Name:
   TargetLanguage: English
   Value: Fortify Hand-to-Hand
 MenuDisplayObject: 0435A5:Skyrim.esm
 Keywords:
-- 00E51B:ConstellationsNewSkills.esp
+- 000008:ConstellationsNewSkills.esp
 - 0F8A4E:Skyrim.esm
 Flags:
 - Recover
@@ -16,7 +16,7 @@ HitShader: 04E220:Skyrim.esm
 Archetype:
   MutagenObjectType: MagicEffectPeakValueModArchetype
   ActorValue: TwoHandedSkillAdvance
-  Association: 00E51B:ConstellationsNewSkills.esp
+  Association: 000008:ConstellationsNewSkills.esp
 CastType: FireAndForget
 DualCastScale: 1
 Sounds:

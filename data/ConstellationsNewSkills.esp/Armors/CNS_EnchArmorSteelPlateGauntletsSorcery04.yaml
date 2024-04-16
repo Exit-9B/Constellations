@@ -1,9 +1,9 @@
-FormKey: 00F621:ConstellationsNewSkills.esp
+FormKey: 0000EE:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorSteelPlateGauntletsSorcery04
 Name:
   TargetLanguage: English
   Value: Steel Plate Bracers of Eminent Sorcery
-ObjectEffect: 00E56B:ConstellationsNewSkills.esp
+ObjectEffect: 000046:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

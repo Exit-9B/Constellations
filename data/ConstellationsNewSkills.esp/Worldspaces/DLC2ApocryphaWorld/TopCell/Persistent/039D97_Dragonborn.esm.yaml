@@ -10,7 +10,7 @@ LocationReference: 03A1E7:Dragonborn.esm
 LinkedReferences:
 - Reference: 01FE92:Dragonborn.esm
 - KeywordOrReference: 05D5E6:Skyrim.esm
-  Reference: 015CD9:ConstellationsNewSkills.esp
+  Reference: 000145:ConstellationsNewSkills.esp
 Placement:
   Position: 2507.3474, 17117.195, 10572.219
   Rotation: 0, -0, 4.776776

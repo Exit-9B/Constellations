@@ -1,4 +1,4 @@
-FormKey: 0058E2:ConstellationsNewSkills.esp
+FormKey: 000170:ConstellationsNewSkills.esp
 EditorID: CNS_H2H_Mastery2
 Name:
   TargetLanguage: English
@@ -12,17 +12,17 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D61:ConstellationsNewSkills.esp
+    Global: 00000F:ConstellationsNewSkills.esp
   ComparisonValue: 20
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
     MutagenObjectType: HasPerkConditionData
-    Perk: 0058E1:ConstellationsNewSkills.esp
+    Perk: 00016F:ConstellationsNewSkills.esp
   ComparisonValue: 1
 NumRanks: 1
 Playable: True
-NextPerk: 0058E3:ConstellationsNewSkills.esp
+NextPerk: 000171:ConstellationsNewSkills.esp
 Effects:
 - MutagenObjectType: PerkEntryPointModifyValue
   Conditions:
@@ -31,7 +31,7 @@ Effects:
       Unknown1: 0x000000
       Data:
         MutagenObjectType: HasPerkConditionData
-        Perk: 0058E3:ConstellationsNewSkills.esp
+        Perk: 000171:ConstellationsNewSkills.esp
   - RunOnTabIndex: 1
     Conditions:
     - MutagenObjectType: ConditionFloat

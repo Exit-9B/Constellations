@@ -1,16 +1,16 @@
-FormKey: 010665:ConstellationsNewSkills.esp
+FormKey: 00014E:ConstellationsNewSkills.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: CNS_TIF__TrainingEnthir
+  - Name: CNS_TIF__TrainingNjadaStonearm
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: CNS_TIF__TrainingEnthir
+    FileName: CNS_TIF__TrainingNjadaStonearm
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: CNS_TIF__TrainingEnthir
+      ScriptName: CNS_TIF__TrainingNjadaStonearm
       FragmentName: Fragment_0
 Flags: {}
-PreviousDialog: Null
+PreviousDialog: 00014D:ConstellationsNewSkills.esp
 FavorLevel: None
 Responses:
 - EmotionValue: 50
@@ -21,7 +21,7 @@ Responses:
   Unknown3: 0x000000
   Text:
     TargetLanguage: English
-    Value: You deal with powerful forces. Take care they do not overwhelm you.
+    Value: You've come to the right place. I'd be happy to teach you.
   ScriptNotes: ''
   Edits: ''
 Conditions:
@@ -29,12 +29,18 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetIsIDConditionData
-    Object: 01C19C:Skyrim.esm
+    Object: 01A6D9:Skyrim.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   CompareOperator: LessThan
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D67:ConstellationsNewSkills.esp
-  ComparisonValue: 90
+    Global: 00000F:ConstellationsNewSkills.esp
+  ComparisonValue: 75
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 0E3A49:Skyrim.esm
+  ComparisonValue: 1

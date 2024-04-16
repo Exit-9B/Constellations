@@ -1,9 +1,9 @@
-FormKey: 00E57E:ConstellationsNewSkills.esp
+FormKey: 00006E:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorDwarvenGauntletsHandToHand02
 Name:
   TargetLanguage: English
   Value: Dwarven Bracers of Pummeling
-ObjectEffect: 00E54B:ConstellationsNewSkills.esp
+ObjectEffect: 000036:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

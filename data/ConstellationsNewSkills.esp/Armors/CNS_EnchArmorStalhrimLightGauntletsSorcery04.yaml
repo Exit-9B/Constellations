@@ -1,9 +1,9 @@
-FormKey: 02A10B:ConstellationsNewSkills.esp
+FormKey: 000129:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorStalhrimLightGauntletsSorcery04
 Name:
   TargetLanguage: English
   Value: Stalhrim Light Bracers of Eminent Sorcery
-ObjectEffect: 00E56B:ConstellationsNewSkills.esp
+ObjectEffect: 000046:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

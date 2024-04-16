@@ -1,9 +1,9 @@
-FormKey: 00F07F:ConstellationsNewSkills.esp
+FormKey: 0000AD:ConstellationsNewSkills.esp
 EditorID: CNS_EnchNecklaceAthletics03
 Name:
   TargetLanguage: English
   Value: Necklace of Major Speed
-ObjectEffect: 00E55B:ConstellationsNewSkills.esp
+ObjectEffect: 00003E:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

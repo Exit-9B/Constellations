@@ -1,9 +1,9 @@
-FormKey: 02A0F0:ConstellationsNewSkills.esp
+FormKey: 00010E:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorStalhrimLightGauntletsHandToHand04
 Name:
   TargetLanguage: English
   Value: Stalhrim Light Bracers of Eminent Pummeling
-ObjectEffect: 00E54F:ConstellationsNewSkills.esp
+ObjectEffect: 000038:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

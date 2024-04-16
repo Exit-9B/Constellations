@@ -124,7 +124,7 @@ BookText:
     We want our life and our home back as it was twenty years ago, but if that is not realistic, then we will accept a different simple, pragmatic goal.  Revenge.  With a smile.</p>
 Keywords:
 - 0937A2:Skyrim.esm
-- 0012D2:ConstellationsNewSkills.esp
+- 000005:ConstellationsNewSkills.esp
 Teaches:
   MutagenObjectType: BookTeachesNothing
   RawContent: 4294967295

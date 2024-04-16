@@ -1,9 +1,9 @@
-FormKey: 00F5FE:ConstellationsNewSkills.esp
+FormKey: 0000CB:ConstellationsNewSkills.esp
 EditorID: CNS_EnchRingSorcery02
 Name:
   TargetLanguage: English
   Value: Ring of Sorcery
-ObjectEffect: 00E567:ConstellationsNewSkills.esp
+ObjectEffect: 000044:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

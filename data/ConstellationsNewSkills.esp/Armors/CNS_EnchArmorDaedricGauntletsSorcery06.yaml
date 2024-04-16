@@ -1,9 +1,9 @@
-FormKey: 00F62E:ConstellationsNewSkills.esp
+FormKey: 0000FB:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorDaedricGauntletsSorcery06
 Name:
   TargetLanguage: English
   Value: Daedric Gauntlets of Peerless Sorcery
-ObjectEffect: 00E56F:ConstellationsNewSkills.esp
+ObjectEffect: 000048:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

@@ -1,9 +1,9 @@
-FormKey: 00E583:ConstellationsNewSkills.esp
+FormKey: 000073:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorIronGauntletsHandToHand02
 Name:
   TargetLanguage: English
   Value: Iron Gauntlets of Pummeling
-ObjectEffect: 00E54B:ConstellationsNewSkills.esp
+ObjectEffect: 000036:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

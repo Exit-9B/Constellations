@@ -1,25 +1,16 @@
-FormKey: 010662:ConstellationsNewSkills.esp
+FormKey: 00014A:ConstellationsNewSkills.esp
 Flags:
   Flags:
   - Random
-  - RandomEnd
-PreviousDialog: 010661:ConstellationsNewSkills.esp
+PreviousDialog: 000149:ConstellationsNewSkills.esp
 FavorLevel: None
-ResponseData: 0BD7E1:Skyrim.esm
+ResponseData: 0BD7E0:Skyrim.esm
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Flags:
-  - OR
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetIsIDConditionData
-    Object: 01B075:Skyrim.esm
-  ComparisonValue: 1
-- MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Data:
-    MutagenObjectType: GetIsIDConditionData
-    Object: 01A6D9:Skyrim.esm
+    Object: 01CD8F:Skyrim.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Flags:
@@ -27,13 +18,12 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetIsIDConditionData
-    Object: 01B075:Skyrim.esm
+    Object: 01CD8F:Skyrim.esm
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
-    MutagenObjectType: GetInFactionConditionData
-    RunOnType: Target
-    Faction: 024029:Skyrim.esm
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 0E595A:Skyrim.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Flags:
@@ -41,10 +31,10 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetIsIDConditionData
-    Object: 01A6D9:Skyrim.esm
+    Object: 01541D:Dawnguard.esm
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
-    MutagenObjectType: GetInFactionConditionData
-    Faction: 0E3A49:Skyrim.esm
+    MutagenObjectType: GetInCurrentLocConditionData
+    Location: 004C1F:Dawnguard.esm
   ComparisonValue: 1

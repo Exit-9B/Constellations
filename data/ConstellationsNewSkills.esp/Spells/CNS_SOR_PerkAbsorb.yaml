@@ -1,4 +1,4 @@
-FormKey: 008416:ConstellationsNewSkills.esp
+FormKey: 00005C:ConstellationsNewSkills.esp
 EditorID: CNS_SOR_PerkAbsorb
 Name:
   TargetLanguage: English
@@ -12,6 +12,6 @@ Flags:
 Type: Ability
 ChargeTime: 0.2
 Effects:
-- BaseEffect: 008415:ConstellationsNewSkills.esp
+- BaseEffect: 000021:ConstellationsNewSkills.esp
   Data:
     Magnitude: 5

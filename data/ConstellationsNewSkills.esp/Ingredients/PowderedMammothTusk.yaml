@@ -20,7 +20,7 @@ Effects:
 - BaseEffect: 03EB16:Skyrim.esm
   Data:
     Magnitude: 5
-- BaseEffect: 00E51E:ConstellationsNewSkills.esp
+- BaseEffect: 00002F:ConstellationsNewSkills.esp
   Data:
     Magnitude: 1
     Duration: 60

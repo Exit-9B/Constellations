@@ -1,4 +1,4 @@
-FormKey: 008EF1:ConstellationsNewSkills.esp
+FormKey: 000189:ConstellationsNewSkills.esp
 EditorID: CNS_H2H_DualCombo
 Name:
   TargetLanguage: English
@@ -12,13 +12,13 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D61:ConstellationsNewSkills.esp
+    Global: 00000F:ConstellationsNewSkills.esp
   ComparisonValue: 90
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
     MutagenObjectType: HasPerkConditionData
-    Perk: 008424:ConstellationsNewSkills.esp
+    Perk: 000187:ConstellationsNewSkills.esp
   ComparisonValue: 1
 NumRanks: 1
 Playable: True
@@ -42,4 +42,4 @@ Effects:
       ComparisonValue: 1
   EntryPoint: ApplyCombatHitSpell
   PerkConditionTabCount: 3
-  Spell: 008EF0:ConstellationsNewSkills.esp
+  Spell: 000055:ConstellationsNewSkills.esp

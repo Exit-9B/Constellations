@@ -1,9 +1,9 @@
-FormKey: 00F087:ConstellationsNewSkills.esp
+FormKey: 0000B5:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorGlassBootsAthletics04
 Name:
   TargetLanguage: English
   Value: Glass Boots of Eminent Speed
-ObjectEffect: 00E55D:ConstellationsNewSkills.esp
+ObjectEffect: 00003F:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

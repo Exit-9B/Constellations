@@ -1,4 +1,4 @@
-FormKey: 00B4A6:ConstellationsNewSkills.esp
+FormKey: 00005D:ConstellationsNewSkills.esp
 EditorID: CNS_SOR_PerkMagickaRecovery
 Name:
   TargetLanguage: English
@@ -12,7 +12,7 @@ Flags:
 Type: Ability
 ChargeTime: 0.5
 Effects:
-- BaseEffect: 00B4A5:ConstellationsNewSkills.esp
+- BaseEffect: 00002B:ConstellationsNewSkills.esp
   Data:
     Magnitude: 50
   Conditions:

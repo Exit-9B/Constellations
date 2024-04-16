@@ -1,9 +1,9 @@
-FormKey: 00F089:ConstellationsNewSkills.esp
+FormKey: 0000B7:ConstellationsNewSkills.esp
 EditorID: CNS_EnchRingAthletics04
 Name:
   TargetLanguage: English
   Value: Ring of Eminent Speed
-ObjectEffect: 00E55D:ConstellationsNewSkills.esp
+ObjectEffect: 00003F:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

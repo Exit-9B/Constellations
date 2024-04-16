@@ -1,9 +1,9 @@
-FormKey: 00F5FB:ConstellationsNewSkills.esp
+FormKey: 0000C8:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorHideGauntletsSorcery01
 Name:
   TargetLanguage: English
   Value: Hide Bracers of Minor Sorcery
-ObjectEffect: 00E565:ConstellationsNewSkills.esp
+ObjectEffect: 000043:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

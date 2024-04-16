@@ -1,4 +1,4 @@
-FormKey: 00F632:ConstellationsNewSkills.esp
+FormKey: 000191:ConstellationsNewSkills.esp
 EditorID: CNS_AlchemyEffects
 Name:
   TargetLanguage: English
@@ -18,7 +18,7 @@ Effects:
       Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInListConditionData
-        FormList: 00285E:ConstellationsNewSkills.esp
+        FormList: 00015D:ConstellationsNewSkills.esp
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
       Flags:
@@ -48,7 +48,7 @@ Effects:
       Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInListConditionData
-        FormList: 00285E:ConstellationsNewSkills.esp
+        FormList: 00015D:ConstellationsNewSkills.esp
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
       Flags:

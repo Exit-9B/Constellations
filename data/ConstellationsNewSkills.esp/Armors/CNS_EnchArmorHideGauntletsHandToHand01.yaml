@@ -1,9 +1,9 @@
-FormKey: 00E578:ConstellationsNewSkills.esp
+FormKey: 000068:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorHideGauntletsHandToHand01
 Name:
   TargetLanguage: English
   Value: Hide Bracers of Minor Pummeling
-ObjectEffect: 00E549:ConstellationsNewSkills.esp
+ObjectEffect: 000035:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

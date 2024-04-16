@@ -1,9 +1,9 @@
-FormKey: 02A0FD:ConstellationsNewSkills.esp
+FormKey: 00011B:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorBonemoldGauntletsSorcery03
 Name:
   TargetLanguage: English
   Value: Bonemold Gauntlets of Major Sorcery
-ObjectEffect: 00E569:ConstellationsNewSkills.esp
+ObjectEffect: 000045:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

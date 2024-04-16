@@ -1,9 +1,9 @@
-FormKey: 00F628:ConstellationsNewSkills.esp
+FormKey: 0000F5:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorDragonscaleGauntletsSorcery05
 Name:
   TargetLanguage: English
   Value: Dragonscale Gauntlets of Extreme Sorcery
-ObjectEffect: 00E56D:ConstellationsNewSkills.esp
+ObjectEffect: 000047:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

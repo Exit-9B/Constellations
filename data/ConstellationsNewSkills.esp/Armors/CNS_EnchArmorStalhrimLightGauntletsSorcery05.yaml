@@ -1,9 +1,9 @@
-FormKey: 02A10C:ConstellationsNewSkills.esp
+FormKey: 00012A:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorStalhrimLightGauntletsSorcery05
 Name:
   TargetLanguage: English
   Value: Stalhrim Light Bracers of Extreme Sorcery
-ObjectEffect: 00E56D:ConstellationsNewSkills.esp
+ObjectEffect: 000047:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

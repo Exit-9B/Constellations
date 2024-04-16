@@ -1,9 +1,9 @@
-FormKey: 00EAFE:ConstellationsNewSkills.esp
+FormKey: 00008D:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorOrcishGauntletsHandToHand04
 Name:
   TargetLanguage: English
   Value: Orcish Gauntlets of Eminent Pummeling
-ObjectEffect: 00E54F:ConstellationsNewSkills.esp
+ObjectEffect: 000038:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

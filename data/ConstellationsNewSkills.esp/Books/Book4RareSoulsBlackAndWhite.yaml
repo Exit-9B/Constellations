@@ -47,7 +47,7 @@ BookText:
     White souls are far safer than black souls, although not as powerful. Beginning students of Mysticism should not dabble in black souls or black soul gems. Even if one were to ignore the guild strictures against the necromantic arts used to power black soul gems, it is dangerous to the caster to handle them for long. If the gem is not precisely the size of the encased soul, small bits of the caster's soul may leak into the gem when it is touched.
 Keywords:
 - 0937A2:Skyrim.esm
-- 0012D4:ConstellationsNewSkills.esp
+- 000006:ConstellationsNewSkills.esp
 Teaches:
   MutagenObjectType: BookTeachesNothing
   RawContent: 4294967295

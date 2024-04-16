@@ -1,14 +1,14 @@
-FormKey: 00841B:ConstellationsNewSkills.esp
+FormKey: 000023:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_CombatRestoreConstantSelf
 VirtualMachineAdapter:
   Scripts:
-  - Name: magicCastAnotherSpellScript
+  - Name: magiccastanotherspellscript
     Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CastSpellName
-      Object: 00841A:ConstellationsNewSkills.esp
     - MutagenObjectType: ScriptBoolProperty
       Name: AimAtTargets
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CastSpellName
+      Object: 000054:ConstellationsNewSkills.esp
 Name:
   TargetLanguage: English
   Value: Fight or Flight

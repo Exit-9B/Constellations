@@ -1,4 +1,4 @@
-FormKey: 004E18:ConstellationsNewSkills.esp
+FormKey: 000169:ConstellationsNewSkills.esp
 EditorID: CNS_H2H_UnarmedTemper
 Name:
   TargetLanguage: English
@@ -12,13 +12,13 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D61:ConstellationsNewSkills.esp
+    Global: 00000F:ConstellationsNewSkills.esp
   ComparisonValue: 50
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
     MutagenObjectType: HasPerkConditionData
-    Perk: 008EF7:ConstellationsNewSkills.esp
+    Perk: 00018A:ConstellationsNewSkills.esp
   ComparisonValue: 1
 NumRanks: 1
 Playable: True

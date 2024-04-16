@@ -1,9 +1,9 @@
-FormKey: 00EAFB:ConstellationsNewSkills.esp
+FormKey: 00008A:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorDragonscaleGauntletsHandToHand04
 Name:
   TargetLanguage: English
   Value: Dragonscale Gauntlets of Eminent Pummeling
-ObjectEffect: 00E54F:ConstellationsNewSkills.esp
+ObjectEffect: 000038:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

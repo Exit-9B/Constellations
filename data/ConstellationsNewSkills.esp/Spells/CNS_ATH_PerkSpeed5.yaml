@@ -1,4 +1,4 @@
-FormKey: 0058F5:ConstellationsNewSkills.esp
+FormKey: 000051:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_PerkSpeed5
 Name:
   TargetLanguage: English
@@ -11,6 +11,6 @@ Flags:
 - NoAbsorbOrReflect
 Type: Ability
 Effects:
-- BaseEffect: 0058ED:ConstellationsNewSkills.esp
+- BaseEffect: 000020:ConstellationsNewSkills.esp
   Data:
     Magnitude: 25

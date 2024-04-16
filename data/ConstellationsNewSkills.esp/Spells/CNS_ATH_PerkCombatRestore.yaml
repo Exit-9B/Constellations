@@ -1,4 +1,4 @@
-FormKey: 00841D:ConstellationsNewSkills.esp
+FormKey: 000049:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_PerkCombatRestore
 Name:
   TargetLanguage: English
@@ -11,7 +11,7 @@ Flags:
 - NoAbsorbOrReflect
 Type: Ability
 Effects:
-- BaseEffect: 00841B:ConstellationsNewSkills.esp
+- BaseEffect: 000023:ConstellationsNewSkills.esp
   Data: {}
   Conditions:
   - MutagenObjectType: ConditionFloat

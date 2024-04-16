@@ -1,9 +1,9 @@
-FormKey: 00F091:ConstellationsNewSkills.esp
+FormKey: 0000BF:ConstellationsNewSkills.esp
 EditorID: CNS_EnchNecklaceAthletics06
 Name:
   TargetLanguage: English
   Value: Necklace of Peerless Speed
-ObjectEffect: 00E561:ConstellationsNewSkills.esp
+ObjectEffect: 000041:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

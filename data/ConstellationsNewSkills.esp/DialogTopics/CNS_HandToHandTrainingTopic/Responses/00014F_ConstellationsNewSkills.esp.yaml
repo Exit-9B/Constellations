@@ -1,10 +1,10 @@
-FormKey: 010661:ConstellationsNewSkills.esp
+FormKey: 00014F:ConstellationsNewSkills.esp
 Flags:
   Flags:
   - Random
-PreviousDialog: 010660:ConstellationsNewSkills.esp
+PreviousDialog: 00014E:ConstellationsNewSkills.esp
 FavorLevel: None
-ResponseData: 0BD7E0:Skyrim.esm
+ResponseData: 0BD7DF:Skyrim.esm
 Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:

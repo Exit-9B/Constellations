@@ -1,4 +1,4 @@
-FormKey: 0058E7:ConstellationsNewSkills.esp
+FormKey: 00005E:ConstellationsNewSkills.esp
 EditorID: CNS_SOR_PerkRapidFire
 Name:
   TargetLanguage: English
@@ -11,7 +11,7 @@ Flags:
 - NoAbsorbOrReflect
 Type: Ability
 Effects:
-- BaseEffect: 0058E6:ConstellationsNewSkills.esp
+- BaseEffect: 00001E:ConstellationsNewSkills.esp
   Data:
     Magnitude: 1.5
   Conditions:
@@ -23,7 +23,7 @@ Effects:
       MutagenObjectType: GetEquippedItemTypeConditionData
       ItemSource: Right
     ComparisonValue: 8
-- BaseEffect: 0058E8:ConstellationsNewSkills.esp
+- BaseEffect: 00001F:ConstellationsNewSkills.esp
   Data:
     Magnitude: 1.5
   Conditions:

@@ -1,9 +1,9 @@
-FormKey: 00F618:ConstellationsNewSkills.esp
+FormKey: 0000E5:ConstellationsNewSkills.esp
 EditorID: CNS_EnchNecklaceSorcery04
 Name:
   TargetLanguage: English
   Value: Necklace of Eminent Sorcery
-ObjectEffect: 00E56B:ConstellationsNewSkills.esp
+ObjectEffect: 000046:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

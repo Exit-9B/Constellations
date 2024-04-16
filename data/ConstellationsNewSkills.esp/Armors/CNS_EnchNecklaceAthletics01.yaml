@@ -1,9 +1,9 @@
-FormKey: 00F070:ConstellationsNewSkills.esp
+FormKey: 00009E:ConstellationsNewSkills.esp
 EditorID: CNS_EnchNecklaceAthletics01
 Name:
   TargetLanguage: English
   Value: Necklace of Minor Speed
-ObjectEffect: 00E557:ConstellationsNewSkills.esp
+ObjectEffect: 00003C:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

@@ -1,4 +1,4 @@
-FormKey: 008427:ConstellationsNewSkills.esp
+FormKey: 000052:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_PerkWarmth1
 Name:
   TargetLanguage: English
@@ -11,7 +11,7 @@ Flags:
 - NoAbsorbOrReflect
 Type: Ability
 Effects:
-- BaseEffect: 008425:ConstellationsNewSkills.esp
+- BaseEffect: 000025:ConstellationsNewSkills.esp
   Data:
     Magnitude: 20
   Conditions:
@@ -19,8 +19,8 @@ Effects:
     Unknown1: 0x000000
     Data:
       MutagenObjectType: HasPerkConditionData
-      Perk: 00C4CB:ConstellationsNewSkills.esp
-- BaseEffect: 008426:ConstellationsNewSkills.esp
+      Perk: 00018D:ConstellationsNewSkills.esp
+- BaseEffect: 000026:ConstellationsNewSkills.esp
   Data:
     Magnitude: 10
   Conditions:
@@ -28,4 +28,4 @@ Effects:
     Unknown1: 0x000000
     Data:
       MutagenObjectType: HasPerkConditionData
-      Perk: 00C4CB:ConstellationsNewSkills.esp
+      Perk: 00018D:ConstellationsNewSkills.esp

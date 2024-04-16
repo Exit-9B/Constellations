@@ -1,9 +1,9 @@
-FormKey: 02A0FE:ConstellationsNewSkills.esp
+FormKey: 00011C:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorChitinHeavyGauntletsSorcery02
 Name:
   TargetLanguage: English
   Value: Chitin Heavy Gauntlets of Sorcery
-ObjectEffect: 00E567:ConstellationsNewSkills.esp
+ObjectEffect: 000044:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

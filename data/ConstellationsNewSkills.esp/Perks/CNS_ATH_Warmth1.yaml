@@ -1,4 +1,4 @@
-FormKey: 008428:ConstellationsNewSkills.esp
+FormKey: 000188:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_Warmth1
 Name:
   TargetLanguage: English
@@ -12,17 +12,17 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D64:ConstellationsNewSkills.esp
+    Global: 000012:ConstellationsNewSkills.esp
   ComparisonValue: 30
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
     MutagenObjectType: HasPerkConditionData
-    Perk: 0058F7:ConstellationsNewSkills.esp
+    Perk: 000175:ConstellationsNewSkills.esp
   ComparisonValue: 1
 NumRanks: 1
 Playable: True
-NextPerk: 00C4CB:ConstellationsNewSkills.esp
+NextPerk: 00018D:ConstellationsNewSkills.esp
 Effects:
 - MutagenObjectType: PerkAbilityEffect
-  Ability: 008427:ConstellationsNewSkills.esp
+  Ability: 000052:ConstellationsNewSkills.esp

@@ -4,9 +4,11 @@ SpriggitSource:
 ModKey: ConstellationsNewSkills.esp
 GameRelease: SkyrimSE
 ModHeader:
+  Flags:
+  - Light
   Stats:
     NumRecords: 589
-    NextFormID: 193037
+    NextFormID: 46290
   Author: Parapets
   Description: '{{BASH:Delev,Keywords,Stats}}'
   MasterReferences:

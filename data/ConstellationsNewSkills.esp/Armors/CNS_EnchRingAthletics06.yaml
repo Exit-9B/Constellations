@@ -1,9 +1,9 @@
-FormKey: 00F092:ConstellationsNewSkills.esp
+FormKey: 0000C0:ConstellationsNewSkills.esp
 EditorID: CNS_EnchRingAthletics06
 Name:
   TargetLanguage: English
   Value: Ring of Peerless Speed
-ObjectEffect: 00E561:ConstellationsNewSkills.esp
+ObjectEffect: 000041:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

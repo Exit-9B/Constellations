@@ -1,9 +1,9 @@
-FormKey: 02A0F6:ConstellationsNewSkills.esp
+FormKey: 000114:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorChitinLightBootsAthletics03
 Name:
   TargetLanguage: English
   Value: Chitin Boots of Major Speed
-ObjectEffect: 00E55B:ConstellationsNewSkills.esp
+ObjectEffect: 00003E:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

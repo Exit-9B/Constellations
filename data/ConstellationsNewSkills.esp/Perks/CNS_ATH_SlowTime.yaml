@@ -1,4 +1,4 @@
-FormKey: 007EAD:ConstellationsNewSkills.esp
+FormKey: 00017E:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_SlowTime
 Name:
   TargetLanguage: English
@@ -12,13 +12,13 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D64:ConstellationsNewSkills.esp
+    Global: 000012:ConstellationsNewSkills.esp
   ComparisonValue: 100
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
     MutagenObjectType: HasPerkConditionData
-    Perk: 004E17:ConstellationsNewSkills.esp
+    Perk: 000168:ConstellationsNewSkills.esp
   ComparisonValue: 1
 NumRanks: 1
 Playable: True
@@ -42,4 +42,4 @@ Effects:
       ComparisonValue: 1
   EntryPoint: ApplyWeaponSwingSpell
   PerkConditionTabCount: 3
-  Spell: 007EAC:ConstellationsNewSkills.esp
+  Spell: 00004C:ConstellationsNewSkills.esp

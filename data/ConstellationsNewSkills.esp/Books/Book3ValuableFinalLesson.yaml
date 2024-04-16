@@ -99,7 +99,7 @@ BookText:
     My boys, the lesson is you have to learn from a teacher to avoid those small but essential errors that claimed the life of such self-taught enchanters as Peothil.  And yet, the only way to become truly great is to try all the possibilities on your own.
 Keywords:
 - 0937A2:Skyrim.esm
-- 0012D4:ConstellationsNewSkills.esp
+- 000006:ConstellationsNewSkills.esp
 Teaches:
   MutagenObjectType: BookTeachesNothing
   RawContent: 4294967295

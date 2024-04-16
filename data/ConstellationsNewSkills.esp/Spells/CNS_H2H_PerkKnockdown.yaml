@@ -1,4 +1,4 @@
-FormKey: 008EFC:ConstellationsNewSkills.esp
+FormKey: 000059:ConstellationsNewSkills.esp
 EditorID: CNS_H2H_PerkKnockdown
 Name:
   TargetLanguage: English
@@ -12,5 +12,5 @@ Flags:
 CastType: FireAndForget
 TargetType: Touch
 Effects:
-- BaseEffect: 008EFB:ConstellationsNewSkills.esp
+- BaseEffect: 00002A:ConstellationsNewSkills.esp
   Data: {}

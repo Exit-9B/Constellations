@@ -1,4 +1,4 @@
-FormKey: 003885:ConstellationsNewSkills.esp
+FormKey: 00005A:ConstellationsNewSkills.esp
 EditorID: CNS_H2H_PerkWeaponSpeed1
 Name:
   TargetLanguage: English
@@ -11,7 +11,7 @@ Flags:
 - NoAbsorbOrReflect
 Type: Ability
 Effects:
-- BaseEffect: 003884:ConstellationsNewSkills.esp
+- BaseEffect: 00001D:ConstellationsNewSkills.esp
   Data:
     Magnitude: 1.15
   Conditions:
@@ -46,7 +46,7 @@ Effects:
     Unknown1: 0x000000
     Data:
       MutagenObjectType: HasPerkConditionData
-      Perk: 0058EB:ConstellationsNewSkills.esp
+      Perk: 000174:ConstellationsNewSkills.esp
   - MutagenObjectType: ConditionFloat
     CompareOperator: NotEqualTo
     Flags:

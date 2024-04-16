@@ -1,9 +1,9 @@
-FormKey: 02A101:ConstellationsNewSkills.esp
+FormKey: 00011F:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorChitinLightGauntletsSorcery02
 Name:
   TargetLanguage: English
   Value: Chitin Bracers of Sorcery
-ObjectEffect: 00E567:ConstellationsNewSkills.esp
+ObjectEffect: 000044:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

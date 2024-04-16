@@ -1,4 +1,4 @@
-FormKey: 0058E1:ConstellationsNewSkills.esp
+FormKey: 00016F:ConstellationsNewSkills.esp
 EditorID: CNS_H2H_Mastery1
 Name:
   TargetLanguage: English
@@ -8,7 +8,7 @@ Description:
   Value: Unarmed attacks do 20% more damage.
 NumRanks: 1
 Playable: True
-NextPerk: 0058E2:ConstellationsNewSkills.esp
+NextPerk: 000170:ConstellationsNewSkills.esp
 Effects:
 - MutagenObjectType: PerkEntryPointModifyValue
   Conditions:
@@ -17,7 +17,7 @@ Effects:
       Unknown1: 0x000000
       Data:
         MutagenObjectType: HasPerkConditionData
-        Perk: 0058E2:ConstellationsNewSkills.esp
+        Perk: 000170:ConstellationsNewSkills.esp
   - RunOnTabIndex: 1
     Conditions:
     - MutagenObjectType: ConditionFloat

@@ -1,4 +1,4 @@
-FormKey: 008EF7:ConstellationsNewSkills.esp
+FormKey: 00018A:ConstellationsNewSkills.esp
 EditorID: CNS_H2H_DamageAttack1
 Name:
   TargetLanguage: English
@@ -12,17 +12,17 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D61:ConstellationsNewSkills.esp
+    Global: 00000F:ConstellationsNewSkills.esp
   ComparisonValue: 30
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
     MutagenObjectType: HasPerkConditionData
-    Perk: 0058E1:ConstellationsNewSkills.esp
+    Perk: 00016F:ConstellationsNewSkills.esp
   ComparisonValue: 1
 NumRanks: 1
 Playable: True
-NextPerk: 008EF9:ConstellationsNewSkills.esp
+NextPerk: 00018B:ConstellationsNewSkills.esp
 Effects:
 - MutagenObjectType: PerkEntryPointSelectSpell
   Priority: 1
@@ -32,14 +32,14 @@ Effects:
       Unknown1: 0x000000
       Data:
         MutagenObjectType: HasPerkConditionData
-        Perk: 008EF9:ConstellationsNewSkills.esp
+        Perk: 00018B:ConstellationsNewSkills.esp
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
       Unknown1: 0x000000
       Data:
         MutagenObjectType: HasPerkConditionData
-        Perk: 008EF1:ConstellationsNewSkills.esp
+        Perk: 000189:ConstellationsNewSkills.esp
     - MutagenObjectType: ConditionFloat
       Unknown1: 0x000000
       Data:
@@ -55,4 +55,4 @@ Effects:
       ComparisonValue: 1
   EntryPoint: ApplyCombatHitSpell
   PerkConditionTabCount: 3
-  Spell: 008EF4:ConstellationsNewSkills.esp
+  Spell: 000056:ConstellationsNewSkills.esp

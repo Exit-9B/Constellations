@@ -1,9 +1,9 @@
-FormKey: 00F62F:ConstellationsNewSkills.esp
+FormKey: 0000FC:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorDragonplateGauntletsSorcery06
 Name:
   TargetLanguage: English
   Value: Dragonplate Gauntlets of Peerless Sorcery
-ObjectEffect: 00E56F:ConstellationsNewSkills.esp
+ObjectEffect: 000048:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

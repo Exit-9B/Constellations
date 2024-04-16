@@ -1,9 +1,9 @@
-FormKey: 00EB0E:ConstellationsNewSkills.esp
+FormKey: 00009D:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorDragonscaleGauntletsHandToHand06
 Name:
   TargetLanguage: English
   Value: Dragonscale Gauntlets of Peerless Pummeling
-ObjectEffect: 00E553:ConstellationsNewSkills.esp
+ObjectEffect: 00003A:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

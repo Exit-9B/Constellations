@@ -1,4 +1,4 @@
-FormKey: 00E52A:ConstellationsNewSkills.esp
+FormKey: 000134:ConstellationsNewSkills.esp
 EditorID: CNS_FortifySkillAthletics02
 Name:
   TargetLanguage: English
@@ -14,7 +14,7 @@ Weight: 0.5
 Value: 73
 ConsumeSound: 0B6435:Skyrim.esm
 Effects:
-- BaseEffect: 00E51E:ConstellationsNewSkills.esp
+- BaseEffect: 00002F:ConstellationsNewSkills.esp
   Data:
     Magnitude: 7
     Duration: 60

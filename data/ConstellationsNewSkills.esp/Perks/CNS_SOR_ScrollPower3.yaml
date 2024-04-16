@@ -1,4 +1,4 @@
-FormKey: 008413:ConstellationsNewSkills.esp
+FormKey: 000182:ConstellationsNewSkills.esp
 EditorID: CNS_SOR_ScrollPower3
 Name:
   TargetLanguage: English
@@ -12,13 +12,13 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D67:ConstellationsNewSkills.esp
+    Global: 000015:ConstellationsNewSkills.esp
   ComparisonValue: 80
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
     MutagenObjectType: HasPerkConditionData
-    Perk: 008412:ConstellationsNewSkills.esp
+    Perk: 000181:ConstellationsNewSkills.esp
   ComparisonValue: 1
 NumRanks: 1
 Playable: True

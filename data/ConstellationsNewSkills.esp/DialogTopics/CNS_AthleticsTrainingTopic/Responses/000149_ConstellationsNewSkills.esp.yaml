@@ -1,8 +1,8 @@
-FormKey: 000D6E:ConstellationsNewSkills.esp
+FormKey: 000149:ConstellationsNewSkills.esp
 Flags:
   Flags:
   - Random
-PreviousDialog: 01ADDE:ConstellationsNewSkills.esp
+PreviousDialog: 000148:ConstellationsNewSkills.esp
 FavorLevel: None
 ResponseData: 0BD7DF:Skyrim.esm
 Conditions:

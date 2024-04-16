@@ -155,7 +155,7 @@ BookText:
     And that brings my story up to the present moment.  Love is red, like blood.
 Keywords:
 - 0937A2:Skyrim.esm
-- 0012D4:ConstellationsNewSkills.esp
+- 000006:ConstellationsNewSkills.esp
 Teaches:
   MutagenObjectType: BookTeachesNothing
   RawContent: 4294967295

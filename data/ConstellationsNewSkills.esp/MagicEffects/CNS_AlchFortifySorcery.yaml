@@ -1,11 +1,11 @@
-FormKey: 00E520:ConstellationsNewSkills.esp
+FormKey: 000030:ConstellationsNewSkills.esp
 EditorID: CNS_AlchFortifySorcery
 Name:
   TargetLanguage: English
   Value: Fortify Sorcery
 MenuDisplayObject: 0435A5:Skyrim.esm
 Keywords:
-- 00E51F:ConstellationsNewSkills.esp
+- 000009:ConstellationsNewSkills.esp
 - 0F8A4E:Skyrim.esm
 Flags:
 - Recover
@@ -16,7 +16,7 @@ HitShader: 04E220:Skyrim.esm
 Archetype:
   MutagenObjectType: MagicEffectPeakValueModArchetype
   ActorValue: EnchantingSkillAdvance
-  Association: 00E51F:ConstellationsNewSkills.esp
+  Association: 000009:ConstellationsNewSkills.esp
 CastType: FireAndForget
 DualCastScale: 1
 Sounds:

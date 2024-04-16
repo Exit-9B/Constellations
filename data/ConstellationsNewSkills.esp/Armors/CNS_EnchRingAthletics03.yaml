@@ -1,9 +1,9 @@
-FormKey: 00F080:ConstellationsNewSkills.esp
+FormKey: 0000AE:ConstellationsNewSkills.esp
 EditorID: CNS_EnchRingAthletics03
 Name:
   TargetLanguage: English
   Value: Ring of Major Speed
-ObjectEffect: 00E55B:ConstellationsNewSkills.esp
+ObjectEffect: 00003E:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

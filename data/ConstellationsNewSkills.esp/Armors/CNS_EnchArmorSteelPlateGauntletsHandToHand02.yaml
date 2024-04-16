@@ -1,9 +1,9 @@
-FormKey: 00E57D:ConstellationsNewSkills.esp
+FormKey: 00006D:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorSteelPlateGauntletsHandToHand02
 Name:
   TargetLanguage: English
   Value: Steel Plate Bracers of Pummeling
-ObjectEffect: 00E54B:ConstellationsNewSkills.esp
+ObjectEffect: 000036:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

@@ -65,7 +65,7 @@ Effects:
       Unknown1: 0x000000
       Data:
         MutagenObjectType: EPModSkillUsage_AdvanceObjectHasKeywordConditionData
-        Keyword: 0012D7:ConstellationsNewSkills.esp
+        Keyword: 000003:ConstellationsNewSkills.esp
       ComparisonValue: 1
   EntryPoint: ModSkillUse
   PerkConditionTabCount: 1

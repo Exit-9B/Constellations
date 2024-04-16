@@ -1,9 +1,9 @@
-FormKey: 02A109:ConstellationsNewSkills.esp
+FormKey: 000127:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorStalhrimHeavyGauntletsSorcery06
 Name:
   TargetLanguage: English
   Value: Stalhrim Gauntlets of Peerless Sorcery
-ObjectEffect: 00E56F:ConstellationsNewSkills.esp
+ObjectEffect: 000048:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

@@ -1,9 +1,9 @@
-FormKey: 00EB08:ConstellationsNewSkills.esp
+FormKey: 000097:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorEbonyGauntletsHandToHand05
 Name:
   TargetLanguage: English
   Value: Ebony Gauntlets of Extreme Pummeling
-ObjectEffect: 00E551:ConstellationsNewSkills.esp
+ObjectEffect: 000039:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

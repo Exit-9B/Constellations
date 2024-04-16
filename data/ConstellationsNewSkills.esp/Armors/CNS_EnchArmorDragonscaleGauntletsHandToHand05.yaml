@@ -1,9 +1,9 @@
-FormKey: 00EB06:ConstellationsNewSkills.esp
+FormKey: 000095:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorDragonscaleGauntletsHandToHand05
 Name:
   TargetLanguage: English
   Value: Dragonscale Gauntlets of Extreme Pummeling
-ObjectEffect: 00E551:ConstellationsNewSkills.esp
+ObjectEffect: 000039:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

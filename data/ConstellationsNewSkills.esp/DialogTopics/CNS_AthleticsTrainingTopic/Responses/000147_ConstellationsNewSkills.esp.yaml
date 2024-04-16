@@ -1,16 +1,16 @@
-FormKey: 010666:ConstellationsNewSkills.esp
+FormKey: 000147:ConstellationsNewSkills.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: CNS_TIF__TrainingWylandriah
+  - Name: CNS_TIF__TrainingVipirtheFleet
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: CNS_TIF__TrainingWylandriah
+    FileName: CNS_TIF__TrainingVipirtheFleet
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: CNS_TIF__TrainingWylandriah
+      ScriptName: CNS_TIF__TrainingVipirtheFleet
       FragmentName: Fragment_0
 Flags: {}
-PreviousDialog: 010665:ConstellationsNewSkills.esp
+PreviousDialog: Null
 FavorLevel: None
 Responses:
 - EmotionValue: 50
@@ -21,7 +21,7 @@ Responses:
   Unknown3: 0x000000
   Text:
     TargetLanguage: English
-    Value: I'll gladly share my knowledge with you.
+    Value: Well, you've come to the right place.
   ScriptNotes: ''
   Edits: ''
 Conditions:
@@ -29,12 +29,18 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetIsIDConditionData
-    Object: 019DEF:Skyrim.esm
+    Object: 01CD8F:Skyrim.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   CompareOperator: LessThan
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D67:ConstellationsNewSkills.esp
-  ComparisonValue: 75
+    Global: 000012:ConstellationsNewSkills.esp
+  ComparisonValue: 90
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 0E595A:Skyrim.esm
+  ComparisonValue: 1

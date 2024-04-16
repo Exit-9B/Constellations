@@ -1,9 +1,9 @@
-FormKey: 00F08A:ConstellationsNewSkills.esp
+FormKey: 0000B8:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorDragonscaleBootsAthletics04
 Name:
   TargetLanguage: English
   Value: Dragonscale Boots of Eminent Speed
-ObjectEffect: 00E55D:ConstellationsNewSkills.esp
+ObjectEffect: 00003F:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

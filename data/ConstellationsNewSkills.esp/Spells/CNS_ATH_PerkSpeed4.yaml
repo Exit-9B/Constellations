@@ -1,4 +1,4 @@
-FormKey: 0058F3:ConstellationsNewSkills.esp
+FormKey: 000050:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_PerkSpeed4
 Name:
   TargetLanguage: English
@@ -11,7 +11,7 @@ Flags:
 - NoAbsorbOrReflect
 Type: Ability
 Effects:
-- BaseEffect: 0058ED:ConstellationsNewSkills.esp
+- BaseEffect: 000020:ConstellationsNewSkills.esp
   Data:
     Magnitude: 20
   Conditions:
@@ -19,4 +19,4 @@ Effects:
     Unknown1: 0x000000
     Data:
       MutagenObjectType: HasPerkConditionData
-      Perk: 0058FC:ConstellationsNewSkills.esp
+      Perk: 000179:ConstellationsNewSkills.esp

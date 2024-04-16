@@ -1,9 +1,9 @@
-FormKey: 00F629:ConstellationsNewSkills.esp
+FormKey: 0000F6:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorGlassGauntletsSorcery05
 Name:
   TargetLanguage: English
   Value: Glass Gauntlets of Extreme Sorcery
-ObjectEffect: 00E56D:ConstellationsNewSkills.esp
+ObjectEffect: 000047:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

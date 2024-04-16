@@ -151,7 +151,7 @@ BookText:
     Neither had, as it turns out, much previous experience with torture, and they soon confessed their treachery to the King's satisfaction. Kael was executed, and Gialene was sent back with escort to her father's court of Skywatch. He has still to find a husband for her. Reman, by contrast, has elected not to take a new royal concubine. The common folk of Firsthold consider this break in palace protocol to be more of the sinister alien influence of the Black Queen, and grumble to all who will listen.
 Keywords:
 - 0937A2:Skyrim.esm
-- 0012D4:ConstellationsNewSkills.esp
+- 000006:ConstellationsNewSkills.esp
 Teaches:
   MutagenObjectType: BookTeachesNothing
   RawContent: 4294967295

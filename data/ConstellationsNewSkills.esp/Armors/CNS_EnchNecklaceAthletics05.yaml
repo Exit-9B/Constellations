@@ -1,9 +1,9 @@
-FormKey: 00F08E:ConstellationsNewSkills.esp
+FormKey: 0000BC:ConstellationsNewSkills.esp
 EditorID: CNS_EnchNecklaceAthletics05
 Name:
   TargetLanguage: English
   Value: Necklace of Extreme Speed
-ObjectEffect: 00E55F:ConstellationsNewSkills.esp
+ObjectEffect: 000040:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

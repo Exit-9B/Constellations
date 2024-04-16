@@ -1,9 +1,9 @@
-FormKey: 00F072:ConstellationsNewSkills.esp
+FormKey: 0000A0:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorImperialLightBootsAthletics01
 Name:
   TargetLanguage: English
   Value: Imperial Boots of Minor Speed
-ObjectEffect: 00E557:ConstellationsNewSkills.esp
+ObjectEffect: 00003C:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

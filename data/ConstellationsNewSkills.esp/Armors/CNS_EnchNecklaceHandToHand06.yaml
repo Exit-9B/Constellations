@@ -1,9 +1,9 @@
-FormKey: 00EB0A:ConstellationsNewSkills.esp
+FormKey: 000099:ConstellationsNewSkills.esp
 EditorID: CNS_EnchNecklaceHandToHand06
 Name:
   TargetLanguage: English
   Value: Necklace of Peerless Pummeling
-ObjectEffect: 00E553:ConstellationsNewSkills.esp
+ObjectEffect: 00003A:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

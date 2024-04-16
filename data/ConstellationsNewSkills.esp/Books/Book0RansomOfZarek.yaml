@@ -128,7 +128,7 @@ BookText:
     In any case, the Dwemer in most of the tales of "Marobar Sul" bear little resemblance to the fearsome, unfathomable race that frightened even the Dunmer, Nords, and Redguards into submission and built ruins that even now have yet to be understood.</p>
 Keywords:
 - 0937A2:Skyrim.esm
-- 0012D3:ConstellationsNewSkills.esp
+- 000004:ConstellationsNewSkills.esp
 Teaches:
   MutagenObjectType: BookTeachesNothing
   RawContent: 4294967295

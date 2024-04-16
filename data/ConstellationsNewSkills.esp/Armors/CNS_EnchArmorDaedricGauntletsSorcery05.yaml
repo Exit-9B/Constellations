@@ -1,9 +1,9 @@
-FormKey: 00F626:ConstellationsNewSkills.esp
+FormKey: 0000F3:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorDaedricGauntletsSorcery05
 Name:
   TargetLanguage: English
   Value: Daedric Gauntlets of Extreme Sorcery
-ObjectEffect: 00E56D:ConstellationsNewSkills.esp
+ObjectEffect: 000047:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

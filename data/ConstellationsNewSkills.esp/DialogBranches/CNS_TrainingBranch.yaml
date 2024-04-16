@@ -1,7 +1,7 @@
-FormKey: 000D6B:ConstellationsNewSkills.esp
+FormKey: 000199:ConstellationsNewSkills.esp
 EditorID: CNS_TrainingBranch
-Quest: 000D6A:ConstellationsNewSkills.esp
+Quest: 00015A:ConstellationsNewSkills.esp
 Category: Player
 Flags:
 - TopLevel
-StartingTopic: 000D6C:ConstellationsNewSkills.esp
+StartingTopic: 000146:ConstellationsNewSkills.esp

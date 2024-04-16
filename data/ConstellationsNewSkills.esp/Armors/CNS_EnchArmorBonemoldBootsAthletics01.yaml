@@ -1,9 +1,9 @@
-FormKey: 02A0F2:ConstellationsNewSkills.esp
+FormKey: 000110:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorBonemoldBootsAthletics01
 Name:
   TargetLanguage: English
   Value: Bonemold Boots of Minor Speed
-ObjectEffect: 00E557:ConstellationsNewSkills.esp
+ObjectEffect: 00003C:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

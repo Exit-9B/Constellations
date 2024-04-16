@@ -1,9 +1,9 @@
-FormKey: 00F609:ConstellationsNewSkills.esp
+FormKey: 0000D6:ConstellationsNewSkills.esp
 EditorID: CNS_EnchNecklaceSorcery03
 Name:
   TargetLanguage: English
   Value: Necklace of Major Sorcery
-ObjectEffect: 00E569:ConstellationsNewSkills.esp
+ObjectEffect: 000045:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

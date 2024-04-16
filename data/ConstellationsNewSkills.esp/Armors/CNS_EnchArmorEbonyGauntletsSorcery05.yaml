@@ -1,9 +1,9 @@
-FormKey: 00F62A:ConstellationsNewSkills.esp
+FormKey: 0000F7:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorEbonyGauntletsSorcery05
 Name:
   TargetLanguage: English
   Value: Ebony Gauntlets of Extreme Sorcery
-ObjectEffect: 00E56D:ConstellationsNewSkills.esp
+ObjectEffect: 000047:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

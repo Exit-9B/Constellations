@@ -1,9 +1,9 @@
-FormKey: 00F08C:ConstellationsNewSkills.esp
+FormKey: 0000BA:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorElvenBootsAthletics04
 Name:
   TargetLanguage: English
   Value: Elven Boots of Eminent Speed
-ObjectEffect: 00E55D:ConstellationsNewSkills.esp
+ObjectEffect: 00003F:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

@@ -1,9 +1,9 @@
-FormKey: 00F615:ConstellationsNewSkills.esp
+FormKey: 0000E2:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorIronGauntletsSorcery03
 Name:
   TargetLanguage: English
   Value: Iron Gauntlets of Major Sorcery
-ObjectEffect: 00E569:ConstellationsNewSkills.esp
+ObjectEffect: 000045:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

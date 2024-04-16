@@ -17,7 +17,7 @@ Value: 50
 Weight: 0.25
 IngredientValue: 47
 Effects:
-- BaseEffect: 00E51E:ConstellationsNewSkills.esp
+- BaseEffect: 00002F:ConstellationsNewSkills.esp
   Data:
     Magnitude: 1
     Duration: 60

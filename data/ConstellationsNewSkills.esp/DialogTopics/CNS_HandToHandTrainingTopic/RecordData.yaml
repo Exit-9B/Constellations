@@ -1,9 +1,9 @@
-FormKey: 01065E:ConstellationsNewSkills.esp
+FormKey: 00014C:ConstellationsNewSkills.esp
 EditorID: CNS_HandToHandTrainingTopic
 Name:
   TargetLanguage: English
   Value: Can you train me in hand-to-hand combat?
-Branch: 000D6B:ConstellationsNewSkills.esp
-Quest: 000D6A:ConstellationsNewSkills.esp
+Branch: 000199:ConstellationsNewSkills.esp
+Quest: 00015A:ConstellationsNewSkills.esp
 SubtypeName: CUST
 Timestamp: 12432

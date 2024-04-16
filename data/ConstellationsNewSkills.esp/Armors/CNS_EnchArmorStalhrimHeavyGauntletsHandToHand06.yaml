@@ -1,9 +1,9 @@
-FormKey: 02A0EE:ConstellationsNewSkills.esp
+FormKey: 00010C:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorStalhrimHeavyGauntletsHandToHand06
 Name:
   TargetLanguage: English
   Value: Stalhrim Gauntlets of Peerless Pummeling
-ObjectEffect: 00E553:ConstellationsNewSkills.esp
+ObjectEffect: 00003A:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

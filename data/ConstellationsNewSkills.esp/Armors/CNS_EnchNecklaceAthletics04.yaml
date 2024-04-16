@@ -1,9 +1,9 @@
-FormKey: 00F088:ConstellationsNewSkills.esp
+FormKey: 0000B6:ConstellationsNewSkills.esp
 EditorID: CNS_EnchNecklaceAthletics04
 Name:
   TargetLanguage: English
   Value: Necklace of Eminent Speed
-ObjectEffect: 00E55D:ConstellationsNewSkills.esp
+ObjectEffect: 00003F:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

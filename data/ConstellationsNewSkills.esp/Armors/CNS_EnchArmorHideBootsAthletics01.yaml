@@ -1,9 +1,9 @@
-FormKey: 00F075:ConstellationsNewSkills.esp
+FormKey: 0000A3:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorHideBootsAthletics01
 Name:
   TargetLanguage: English
   Value: Hide Boots of Minor Speed
-ObjectEffect: 00E557:ConstellationsNewSkills.esp
+ObjectEffect: 00003C:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

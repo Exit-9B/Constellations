@@ -1,9 +1,9 @@
-FormKey: 02A0ED:ConstellationsNewSkills.esp
+FormKey: 00010B:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorStalhrimHeavyGauntletsHandToHand05
 Name:
   TargetLanguage: English
   Value: Stalhrim Gauntlets of Extreme Pummeling
-ObjectEffect: 00E551:ConstellationsNewSkills.esp
+ObjectEffect: 000039:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

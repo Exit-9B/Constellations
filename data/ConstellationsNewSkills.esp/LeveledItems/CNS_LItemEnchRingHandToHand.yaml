@@ -1,4 +1,4 @@
-FormKey: 00F636:ConstellationsNewSkills.esp
+FormKey: 00013D:ConstellationsNewSkills.esp
 EditorID: CNS_LItemEnchRingHandToHand
 Flags:
 - CalculateFromAllLevelsLessThanOrEqualPlayer
@@ -6,97 +6,97 @@ Flags:
 Entries:
 - Data:
     Level: 1
-    Reference: 00E573:ConstellationsNewSkills.esp
+    Reference: 000063:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 1
-    Reference: 00E573:ConstellationsNewSkills.esp
+    Reference: 000063:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 1
-    Reference: 00E573:ConstellationsNewSkills.esp
+    Reference: 000063:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 1
-    Reference: 00E573:ConstellationsNewSkills.esp
+    Reference: 000063:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 8
-    Reference: 00E57B:ConstellationsNewSkills.esp
+    Reference: 00006B:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 9
-    Reference: 00E57B:ConstellationsNewSkills.esp
+    Reference: 00006B:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 10
-    Reference: 00E57B:ConstellationsNewSkills.esp
+    Reference: 00006B:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 11
-    Reference: 00E57B:ConstellationsNewSkills.esp
+    Reference: 00006B:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 16
-    Reference: 00E587:ConstellationsNewSkills.esp
+    Reference: 000077:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 17
-    Reference: 00E587:ConstellationsNewSkills.esp
+    Reference: 000077:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 18
-    Reference: 00E587:ConstellationsNewSkills.esp
+    Reference: 000077:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 19
-    Reference: 00E587:ConstellationsNewSkills.esp
+    Reference: 000077:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 24
-    Reference: 00EAF7:ConstellationsNewSkills.esp
+    Reference: 000086:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 25
-    Reference: 00EAF7:ConstellationsNewSkills.esp
+    Reference: 000086:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 26
-    Reference: 00EAF7:ConstellationsNewSkills.esp
+    Reference: 000086:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 27
-    Reference: 00EAF7:ConstellationsNewSkills.esp
+    Reference: 000086:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 32
-    Reference: 00EB03:ConstellationsNewSkills.esp
+    Reference: 000092:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 33
-    Reference: 00EB03:ConstellationsNewSkills.esp
+    Reference: 000092:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 34
-    Reference: 00EB03:ConstellationsNewSkills.esp
+    Reference: 000092:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 35
-    Reference: 00EB03:ConstellationsNewSkills.esp
+    Reference: 000092:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 40
-    Reference: 00EB0B:ConstellationsNewSkills.esp
+    Reference: 00009A:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 41
-    Reference: 00EB0B:ConstellationsNewSkills.esp
+    Reference: 00009A:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 42
-    Reference: 00EB0B:ConstellationsNewSkills.esp
+    Reference: 00009A:ConstellationsNewSkills.esp
     Count: 1
 - Data:
     Level: 43
-    Reference: 00EB0B:ConstellationsNewSkills.esp
+    Reference: 00009A:ConstellationsNewSkills.esp
     Count: 1

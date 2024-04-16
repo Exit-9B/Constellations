@@ -1,9 +1,9 @@
-FormKey: 02A104:ConstellationsNewSkills.esp
+FormKey: 000122:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorNordicHeavyGauntletsSorcery03
 Name:
   TargetLanguage: English
   Value: Nordic Carved Gauntlets of Major Sorcery
-ObjectEffect: 00E569:ConstellationsNewSkills.esp
+ObjectEffect: 000045:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

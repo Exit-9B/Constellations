@@ -1,4 +1,4 @@
-FormKey: 00841A:ConstellationsNewSkills.esp
+FormKey: 000054:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_RestoreStamina
 Name:
   TargetLanguage: English
@@ -13,6 +13,6 @@ Flags:
 ChargeTime: 0.5
 CastType: FireAndForget
 Effects:
-- BaseEffect: 008419:ConstellationsNewSkills.esp
+- BaseEffect: 000022:ConstellationsNewSkills.esp
   Data:
     Magnitude: 9999

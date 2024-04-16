@@ -1,9 +1,9 @@
-FormKey: 00EB01:ConstellationsNewSkills.esp
+FormKey: 000090:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorElvenGauntletsHandToHand04
 Name:
   TargetLanguage: English
   Value: Elven Bracers of Eminent Pummeling
-ObjectEffect: 00E54F:ConstellationsNewSkills.esp
+ObjectEffect: 000038:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

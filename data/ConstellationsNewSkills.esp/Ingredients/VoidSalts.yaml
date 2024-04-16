@@ -29,7 +29,7 @@ Effects:
   Data:
     Magnitude: 2
     Duration: 1
-- BaseEffect: 00E520:ConstellationsNewSkills.esp
+- BaseEffect: 000030:ConstellationsNewSkills.esp
   Data:
     Magnitude: 4
     Duration: 60

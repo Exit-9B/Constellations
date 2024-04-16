@@ -1,9 +1,9 @@
-FormKey: 02A0F9:ConstellationsNewSkills.esp
+FormKey: 000117:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorStalhrimLightBootsAthletics04
 Name:
   TargetLanguage: English
   Value: Stalhrim Light Boots of Eminent Speed
-ObjectEffect: 00E55D:ConstellationsNewSkills.esp
+ObjectEffect: 00003F:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

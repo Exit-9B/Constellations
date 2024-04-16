@@ -1,4 +1,4 @@
-FormKey: 00E54B:ConstellationsNewSkills.esp
+FormKey: 000036:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorFortifyHandToHand02
 Name:
   TargetLanguage: English
@@ -6,9 +6,9 @@ Name:
 EnchantmentCost: 593
 EnchantmentAmount: 593
 EnchantType: Enchantment
-BaseEnchantment: 00E548:ConstellationsNewSkills.esp
-WornRestrictions: 00E545:ConstellationsNewSkills.esp
+BaseEnchantment: 000034:ConstellationsNewSkills.esp
+WornRestrictions: 00015F:ConstellationsNewSkills.esp
 Effects:
-- BaseEffect: 00E540:ConstellationsNewSkills.esp
+- BaseEffect: 000031:ConstellationsNewSkills.esp
   Data:
     Magnitude: 20

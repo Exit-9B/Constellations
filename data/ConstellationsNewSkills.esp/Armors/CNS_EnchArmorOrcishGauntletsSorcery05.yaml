@@ -1,9 +1,9 @@
-FormKey: 00F62B:ConstellationsNewSkills.esp
+FormKey: 0000F8:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorOrcishGauntletsSorcery05
 Name:
   TargetLanguage: English
   Value: Orcish Gauntlets of Extreme Sorcery
-ObjectEffect: 00E56D:ConstellationsNewSkills.esp
+ObjectEffect: 000047:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

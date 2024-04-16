@@ -170,7 +170,7 @@ Effects:
       Unknown1: 0x000000
       Data:
         MutagenObjectType: HasKeywordConditionData
-        Keyword: 00E541:ConstellationsNewSkills.esp
+        Keyword: 00000A:ConstellationsNewSkills.esp
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
       Flags:
@@ -178,7 +178,7 @@ Effects:
       Unknown1: 0x000000
       Data:
         MutagenObjectType: HasKeywordConditionData
-        Keyword: 00E53F:ConstellationsNewSkills.esp
+        Keyword: 00000B:ConstellationsNewSkills.esp
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
       Flags:
@@ -186,7 +186,7 @@ Effects:
       Unknown1: 0x000000
       Data:
         MutagenObjectType: HasKeywordConditionData
-        Keyword: 00E543:ConstellationsNewSkills.esp
+        Keyword: 00000C:ConstellationsNewSkills.esp
       ComparisonValue: 1
   EntryPoint: ModEnchantmentPower
   PerkConditionTabCount: 3

@@ -1,36 +1,36 @@
-FormKey: 015CD8:ConstellationsNewSkills.esp
+FormKey: 000060:ConstellationsNewSkills.esp
 EditorID: CNS_ApocryphaConstellationActivator_Sorcery
 VirtualMachineAdapter:
   Scripts:
   - Name: CNS_ApocryphaConstellationActivator
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: DLC2AltarNotInCombatMSG
-      Object: 01FF36:Dragonborn.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DLC2AltarNoPerksInThisSkillMSG
-      Object: 039D99:Dragonborn.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: DLC2ApocryphaRewardSpell
       Object: 029A26:Dragonborn.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Perks
-      Object: 015CCF:ConstellationsNewSkills.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: DLC2AltarPerkPointsRefundedPlural
       Object: 039DAD:Dragonborn.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: DLC2AltarPerkPointsRefundedSingular
-      Object: 01FE90:Dragonborn.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AltarSkillMessageSingular
-      Object: 015CD5:ConstellationsNewSkills.esp
-    - MutagenObjectType: ScriptObjectProperty
       Name: DLC2AltarNoSoulsMSG
       Object: 01FE96:Dragonborn.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: DLC2AltarPerkPointsRefundedSingular
+      Object: 01FE90:Dragonborn.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DLC2AltarNoPerksInThisSkillMSG
+      Object: 039D99:Dragonborn.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AltarSkillMessageSingular
+      Object: 000194:ConstellationsNewSkills.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Perks
+      Object: 000160:ConstellationsNewSkills.esp
+    - MutagenObjectType: ScriptObjectProperty
       Name: AltarSkillMessagePlural
-      Object: 015CD4:ConstellationsNewSkills.esp
+      Object: 000195:ConstellationsNewSkills.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DLC2AltarNotInCombatMSG
+      Object: 01FF36:Dragonborn.esm
 ObjectBounds:
   First: -114, 203, -48
   Second: 114, 796, 180

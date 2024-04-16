@@ -1,4 +1,4 @@
-FormKey: 003886:ConstellationsNewSkills.esp
+FormKey: 00005B:ConstellationsNewSkills.esp
 EditorID: CNS_H2H_PerkWeaponSpeed2
 Name:
   TargetLanguage: English
@@ -11,7 +11,7 @@ Flags:
 - NoAbsorbOrReflect
 Type: Ability
 Effects:
-- BaseEffect: 003884:ConstellationsNewSkills.esp
+- BaseEffect: 00001D:ConstellationsNewSkills.esp
   Data:
     Magnitude: 1.3
   Conditions:

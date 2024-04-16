@@ -94,7 +94,7 @@ BookText:
     Koniinge
 Keywords:
 - 0937A2:Skyrim.esm
-- 0012D2:ConstellationsNewSkills.esp
+- 000005:ConstellationsNewSkills.esp
 Teaches:
   MutagenObjectType: BookTeachesNothing
   RawContent: 4294967295

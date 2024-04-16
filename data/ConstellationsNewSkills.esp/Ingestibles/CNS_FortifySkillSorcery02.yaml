@@ -1,4 +1,4 @@
-FormKey: 00E532:ConstellationsNewSkills.esp
+FormKey: 000130:ConstellationsNewSkills.esp
 EditorID: CNS_FortifySkillSorcery02
 Name:
   TargetLanguage: English
@@ -14,7 +14,7 @@ Weight: 0.5
 Value: 151
 ConsumeSound: 0B6435:Skyrim.esm
 Effects:
-- BaseEffect: 00E520:ConstellationsNewSkills.esp
+- BaseEffect: 000030:ConstellationsNewSkills.esp
   Data:
     Magnitude: 30
     Duration: 60

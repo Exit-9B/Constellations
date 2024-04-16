@@ -1,9 +1,9 @@
-FormKey: 00EB0B:ConstellationsNewSkills.esp
+FormKey: 00009A:ConstellationsNewSkills.esp
 EditorID: CNS_EnchRingHandToHand06
 Name:
   TargetLanguage: English
   Value: Ring of Peerless Pummeling
-ObjectEffect: 00E553:ConstellationsNewSkills.esp
+ObjectEffect: 00003A:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

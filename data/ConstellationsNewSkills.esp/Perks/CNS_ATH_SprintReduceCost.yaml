@@ -1,4 +1,4 @@
-FormKey: 00D4F5:ConstellationsNewSkills.esp
+FormKey: 00018F:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_SprintReduceCost
 Name:
   TargetLanguage: English
@@ -12,13 +12,13 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D64:ConstellationsNewSkills.esp
+    Global: 000012:ConstellationsNewSkills.esp
   ComparisonValue: 60
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
     MutagenObjectType: HasPerkConditionData
-    Perk: 00CA31:ConstellationsNewSkills.esp
+    Perk: 00018E:ConstellationsNewSkills.esp
   ComparisonValue: 1
 NumRanks: 1
 Playable: True

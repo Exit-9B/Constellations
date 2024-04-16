@@ -1,9 +1,9 @@
-FormKey: 00F612:ConstellationsNewSkills.esp
+FormKey: 0000DF:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorElvenGauntletsSorcery03
 Name:
   TargetLanguage: English
   Value: Elven Bracers of Major Sorcery
-ObjectEffect: 00E569:ConstellationsNewSkills.esp
+ObjectEffect: 000045:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

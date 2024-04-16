@@ -1,9 +1,9 @@
-FormKey: 00E575:ConstellationsNewSkills.esp
+FormKey: 000065:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorSteelGauntletsHandToHand01
 Name:
   TargetLanguage: English
   Value: Steel Gauntlets of Minor Pummeling
-ObjectEffect: 00E549:ConstellationsNewSkills.esp
+ObjectEffect: 000035:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

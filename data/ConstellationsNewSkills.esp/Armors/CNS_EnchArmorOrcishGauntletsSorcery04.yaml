@@ -1,9 +1,9 @@
-FormKey: 00F620:ConstellationsNewSkills.esp
+FormKey: 0000ED:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorOrcishGauntletsSorcery04
 Name:
   TargetLanguage: English
   Value: Orcish Gauntlets of Eminent Sorcery
-ObjectEffect: 00E56B:ConstellationsNewSkills.esp
+ObjectEffect: 000046:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

@@ -1,4 +1,4 @@
-FormKey: 00CA30:ConstellationsNewSkills.esp
+FormKey: 00004B:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_PerkPredatorFriend
 Name:
   TargetLanguage: English
@@ -11,9 +11,9 @@ Flags:
 - NoAbsorbOrReflect
 Type: Ability
 Effects:
-- BaseEffect: 00CA2E:ConstellationsNewSkills.esp
+- BaseEffect: 00002C:ConstellationsNewSkills.esp
   Data: {}
-- BaseEffect: 00CA2F:ConstellationsNewSkills.esp
+- BaseEffect: 00002D:ConstellationsNewSkills.esp
   Data: {}
   Conditions:
   - MutagenObjectType: ConditionFloat

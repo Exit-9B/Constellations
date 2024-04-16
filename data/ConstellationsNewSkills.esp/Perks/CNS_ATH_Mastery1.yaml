@@ -1,4 +1,4 @@
-FormKey: 0058F7:ConstellationsNewSkills.esp
+FormKey: 000175:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_Mastery1
 Name:
   TargetLanguage: English
@@ -8,7 +8,7 @@ Description:
   Value: Move 5% faster.
 NumRanks: 1
 Playable: True
-NextPerk: 0058F9:ConstellationsNewSkills.esp
+NextPerk: 000176:ConstellationsNewSkills.esp
 Effects:
 - MutagenObjectType: PerkAbilityEffect
-  Ability: 0058EE:ConstellationsNewSkills.esp
+  Ability: 00004D:ConstellationsNewSkills.esp

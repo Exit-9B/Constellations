@@ -1,4 +1,4 @@
-FormKey: 00C4CA:ConstellationsNewSkills.esp
+FormKey: 000053:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_PerkWarmth2
 Name:
   TargetLanguage: English
@@ -11,9 +11,9 @@ Flags:
 - NoAbsorbOrReflect
 Type: Ability
 Effects:
-- BaseEffect: 008425:ConstellationsNewSkills.esp
+- BaseEffect: 000025:ConstellationsNewSkills.esp
   Data:
     Magnitude: 35
-- BaseEffect: 008426:ConstellationsNewSkills.esp
+- BaseEffect: 000026:ConstellationsNewSkills.esp
   Data:
     Magnitude: 20

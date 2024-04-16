@@ -1,9 +1,9 @@
-FormKey: 02A0F7:ConstellationsNewSkills.esp
+FormKey: 000115:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorChitinLightBootsAthletics04
 Name:
   TargetLanguage: English
   Value: Chitin Boots of Eminent Speed
-ObjectEffect: 00E55D:ConstellationsNewSkills.esp
+ObjectEffect: 00003F:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

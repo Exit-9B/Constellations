@@ -1,9 +1,9 @@
-FormKey: 00EAF9:ConstellationsNewSkills.esp
+FormKey: 000088:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorDaedricGauntletsHandToHand04
 Name:
   TargetLanguage: English
   Value: Daedric Gauntlets of Eminent Pummeling
-ObjectEffect: 00E54F:ConstellationsNewSkills.esp
+ObjectEffect: 000038:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

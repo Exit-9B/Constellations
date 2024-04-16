@@ -1,9 +1,9 @@
-FormKey: 02A0E0:ConstellationsNewSkills.esp
+FormKey: 0000FE:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorBonemoldGauntletsHandToHand01
 Name:
   TargetLanguage: English
   Value: Bonemold Gauntlets of Minor Pummeling
-ObjectEffect: 00E549:ConstellationsNewSkills.esp
+ObjectEffect: 000035:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

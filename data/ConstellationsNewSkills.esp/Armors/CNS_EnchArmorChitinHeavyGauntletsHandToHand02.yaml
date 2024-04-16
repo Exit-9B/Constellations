@@ -1,9 +1,9 @@
-FormKey: 02A0E3:ConstellationsNewSkills.esp
+FormKey: 000101:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorChitinHeavyGauntletsHandToHand02
 Name:
   TargetLanguage: English
   Value: Chitin Heavy Gauntlets of Pummeling
-ObjectEffect: 00E54B:ConstellationsNewSkills.esp
+ObjectEffect: 000036:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

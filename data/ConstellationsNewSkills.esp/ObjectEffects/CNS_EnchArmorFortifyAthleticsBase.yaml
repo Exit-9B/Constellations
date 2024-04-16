@@ -1,4 +1,4 @@
-FormKey: 00E555:ConstellationsNewSkills.esp
+FormKey: 00003B:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorFortifyAthleticsBase
 Name:
   TargetLanguage: English
@@ -6,8 +6,8 @@ Name:
 EnchantmentCost: 275
 EnchantmentAmount: 275
 EnchantType: Enchantment
-WornRestrictions: 00E546:ConstellationsNewSkills.esp
+WornRestrictions: 00015C:ConstellationsNewSkills.esp
 Effects:
-- BaseEffect: 00E542:ConstellationsNewSkills.esp
+- BaseEffect: 000032:ConstellationsNewSkills.esp
   Data:
     Magnitude: 4

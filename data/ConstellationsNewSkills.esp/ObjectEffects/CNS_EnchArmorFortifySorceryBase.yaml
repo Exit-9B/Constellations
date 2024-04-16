@@ -1,4 +1,4 @@
-FormKey: 00E563:ConstellationsNewSkills.esp
+FormKey: 000042:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorFortifySorceryBase
 Name:
   TargetLanguage: English
@@ -6,8 +6,8 @@ Name:
 EnchantmentCost: 403
 EnchantmentAmount: 403
 EnchantType: Enchantment
-WornRestrictions: 00E547:ConstellationsNewSkills.esp
+WornRestrictions: 00015E:ConstellationsNewSkills.esp
 Effects:
-- BaseEffect: 00E544:ConstellationsNewSkills.esp
+- BaseEffect: 000033:ConstellationsNewSkills.esp
   Data:
     Magnitude: 13

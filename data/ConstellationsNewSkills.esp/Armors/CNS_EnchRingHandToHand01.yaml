@@ -1,9 +1,9 @@
-FormKey: 00E573:ConstellationsNewSkills.esp
+FormKey: 000063:ConstellationsNewSkills.esp
 EditorID: CNS_EnchRingHandToHand01
 Name:
   TargetLanguage: English
   Value: Ring of Minor Pummeling
-ObjectEffect: 00E549:ConstellationsNewSkills.esp
+ObjectEffect: 000035:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

@@ -1,4 +1,4 @@
-FormKey: 0058FB:ConstellationsNewSkills.esp
+FormKey: 000178:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_Mastery4
 Name:
   TargetLanguage: English
@@ -12,17 +12,17 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D64:ConstellationsNewSkills.esp
+    Global: 000012:ConstellationsNewSkills.esp
   ComparisonValue: 60
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
     MutagenObjectType: HasPerkConditionData
-    Perk: 0058FA:ConstellationsNewSkills.esp
+    Perk: 000177:ConstellationsNewSkills.esp
   ComparisonValue: 1
 NumRanks: 1
 Playable: True
-NextPerk: 0058FC:ConstellationsNewSkills.esp
+NextPerk: 000179:ConstellationsNewSkills.esp
 Effects:
 - MutagenObjectType: PerkAbilityEffect
-  Ability: 0058F3:ConstellationsNewSkills.esp
+  Ability: 000050:ConstellationsNewSkills.esp

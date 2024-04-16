@@ -1,4 +1,4 @@
-FormKey: 008424:ConstellationsNewSkills.esp
+FormKey: 000187:ConstellationsNewSkills.esp
 EditorID: CNS_H2H_DualPowerDamage
 Name:
   TargetLanguage: English
@@ -12,13 +12,13 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D61:ConstellationsNewSkills.esp
+    Global: 00000F:ConstellationsNewSkills.esp
   ComparisonValue: 70
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
     MutagenObjectType: HasPerkConditionData
-    Perk: 0058EB:ConstellationsNewSkills.esp
+    Perk: 000174:ConstellationsNewSkills.esp
   ComparisonValue: 1
 NumRanks: 1
 Playable: True

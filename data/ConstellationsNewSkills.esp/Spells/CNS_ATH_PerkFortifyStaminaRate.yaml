@@ -1,4 +1,4 @@
-FormKey: 008420:ConstellationsNewSkills.esp
+FormKey: 00004A:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_PerkFortifyStaminaRate
 Name:
   TargetLanguage: English
@@ -11,7 +11,7 @@ Flags:
 - NoAbsorbOrReflect
 Type: Ability
 Effects:
-- BaseEffect: 00841E:ConstellationsNewSkills.esp
+- BaseEffect: 000024:ConstellationsNewSkills.esp
   Data:
     Magnitude: 50
   Conditions:

@@ -1,11 +1,11 @@
-FormKey: 00E51E:ConstellationsNewSkills.esp
+FormKey: 00002F:ConstellationsNewSkills.esp
 EditorID: CNS_AlchFortifyAthletics
 Name:
   TargetLanguage: English
   Value: Fortify Speed
 MenuDisplayObject: 0435A5:Skyrim.esm
 Keywords:
-- 00E51D:ConstellationsNewSkills.esp
+- 000007:ConstellationsNewSkills.esp
 - 0F8A4E:Skyrim.esm
 Flags:
 - Recover
@@ -16,7 +16,7 @@ HitShader: 04E220:Skyrim.esm
 Archetype:
   MutagenObjectType: MagicEffectPeakValueModArchetype
   ActorValue: SpeedMult
-  Association: 00E51D:ConstellationsNewSkills.esp
+  Association: 000007:ConstellationsNewSkills.esp
 CastType: FireAndForget
 DualCastScale: 1
 Sounds:

@@ -1,9 +1,9 @@
-FormKey: 00E577:ConstellationsNewSkills.esp
+FormKey: 000067:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorImperialGauntletsHandToHand01
 Name:
   TargetLanguage: English
   Value: Imperial Bracers of Minor Pummeling
-ObjectEffect: 00E549:ConstellationsNewSkills.esp
+ObjectEffect: 000035:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

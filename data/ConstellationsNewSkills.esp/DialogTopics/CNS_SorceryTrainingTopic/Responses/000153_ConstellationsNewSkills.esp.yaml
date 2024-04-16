@@ -1,16 +1,16 @@
-FormKey: 01ADDE:ConstellationsNewSkills.esp
+FormKey: 000153:ConstellationsNewSkills.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: CNS_TIF__TrainingDurak
+  - Name: CNS_TIF__TrainingEnthir
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: CNS_TIF__TrainingDurak
+    FileName: CNS_TIF__TrainingEnthir
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: CNS_TIF__TrainingDurak
+      ScriptName: CNS_TIF__TrainingEnthir
       FragmentName: Fragment_0
 Flags: {}
-PreviousDialog: 000D6D:ConstellationsNewSkills.esp
+PreviousDialog: Null
 FavorLevel: None
 Responses:
 - EmotionValue: 50
@@ -21,7 +21,7 @@ Responses:
   Unknown3: 0x000000
   Text:
     TargetLanguage: English
-    Value: You'll never compare to me, but I can try to teach you anyway.
+    Value: You deal with powerful forces. Take care they do not overwhelm you.
   ScriptNotes: ''
   Edits: ''
 Conditions:
@@ -29,18 +29,12 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetIsIDConditionData
-    Object: 01541D:Dawnguard.esm
+    Object: 01C19C:Skyrim.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   CompareOperator: LessThan
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D64:ConstellationsNewSkills.esp
-  ComparisonValue: 75
-- MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Data:
-    MutagenObjectType: GetInCurrentLocConditionData
-    Location: 004C1F:Dawnguard.esm
-  ComparisonValue: 1
+    Global: 000015:ConstellationsNewSkills.esp
+  ComparisonValue: 90

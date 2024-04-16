@@ -1,4 +1,4 @@
-FormKey: 0073E4:ConstellationsNewSkills.esp
+FormKey: 00017C:ConstellationsNewSkills.esp
 EditorID: CNS_H2H_PowerKnockdown
 Name:
   TargetLanguage: English
@@ -12,13 +12,13 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D61:ConstellationsNewSkills.esp
+    Global: 00000F:ConstellationsNewSkills.esp
   ComparisonValue: 100
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
     MutagenObjectType: HasPerkConditionData
-    Perk: 008414:ConstellationsNewSkills.esp
+    Perk: 000183:ConstellationsNewSkills.esp
   ComparisonValue: 1
 NumRanks: 1
 Playable: True
@@ -55,4 +55,4 @@ Effects:
         Keyword: 0172AC:Skyrim.esm
   EntryPoint: ApplyCombatHitSpell
   PerkConditionTabCount: 3
-  Spell: 008EFC:ConstellationsNewSkills.esp
+  Spell: 000059:ConstellationsNewSkills.esp

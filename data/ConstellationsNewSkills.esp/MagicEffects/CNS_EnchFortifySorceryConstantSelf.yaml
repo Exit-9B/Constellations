@@ -1,11 +1,11 @@
-FormKey: 00E544:ConstellationsNewSkills.esp
+FormKey: 000033:ConstellationsNewSkills.esp
 EditorID: CNS_EnchFortifySorceryConstantSelf
 Name:
   TargetLanguage: English
   Value: Fortify Sorcery
 MenuDisplayObject: 0435A5:Skyrim.esm
 Keywords:
-- 00E543:ConstellationsNewSkills.esp
+- 00000C:ConstellationsNewSkills.esp
 Flags:
 - Recover
 - NoDuration

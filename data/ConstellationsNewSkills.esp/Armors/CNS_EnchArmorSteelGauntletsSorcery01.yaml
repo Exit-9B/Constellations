@@ -1,9 +1,9 @@
-FormKey: 00F5F8:ConstellationsNewSkills.esp
+FormKey: 0000C5:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorSteelGauntletsSorcery01
 Name:
   TargetLanguage: English
   Value: Steel Gauntlets of Minor Sorcery
-ObjectEffect: 00E565:ConstellationsNewSkills.esp
+ObjectEffect: 000043:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

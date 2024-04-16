@@ -1,9 +1,9 @@
-FormKey: 00E57C:ConstellationsNewSkills.esp
+FormKey: 00006C:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorScaledGauntletsHandToHand02
 Name:
   TargetLanguage: English
   Value: Scaled Bracers of Pummeling
-ObjectEffect: 00E54B:ConstellationsNewSkills.esp
+ObjectEffect: 000036:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

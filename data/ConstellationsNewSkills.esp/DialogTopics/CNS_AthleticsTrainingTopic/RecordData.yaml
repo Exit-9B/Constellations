@@ -1,9 +1,9 @@
-FormKey: 000D6C:ConstellationsNewSkills.esp
+FormKey: 000146:ConstellationsNewSkills.esp
 EditorID: CNS_AthleticsTrainingTopic
 Name:
   TargetLanguage: English
   Value: I need training in athletics.
-Branch: 000D6B:ConstellationsNewSkills.esp
-Quest: 000D6A:ConstellationsNewSkills.esp
+Branch: 000199:ConstellationsNewSkills.esp
+Quest: 00015A:ConstellationsNewSkills.esp
 SubtypeName: CUST
 Timestamp: 12432

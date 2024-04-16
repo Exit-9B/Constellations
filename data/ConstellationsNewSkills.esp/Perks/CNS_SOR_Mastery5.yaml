@@ -1,4 +1,4 @@
-FormKey: 0058E0:ConstellationsNewSkills.esp
+FormKey: 00016E:ConstellationsNewSkills.esp
 EditorID: CNS_SOR_Mastery5
 Name:
   TargetLanguage: English
@@ -12,13 +12,13 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D67:ConstellationsNewSkills.esp
+    Global: 000015:ConstellationsNewSkills.esp
   ComparisonValue: 80
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
     MutagenObjectType: HasPerkConditionData
-    Perk: 0058DF:ConstellationsNewSkills.esp
+    Perk: 00016D:ConstellationsNewSkills.esp
   ComparisonValue: 1
 NumRanks: 1
 Playable: True
@@ -31,7 +31,7 @@ Effects:
       Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInListConditionData
-        FormList: 00285E:ConstellationsNewSkills.esp
+        FormList: 00015D:ConstellationsNewSkills.esp
       ComparisonValue: 1
   EntryPoint: ModSpellCost
   PerkConditionTabCount: 2

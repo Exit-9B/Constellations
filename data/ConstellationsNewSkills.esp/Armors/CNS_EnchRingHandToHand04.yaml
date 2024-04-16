@@ -1,9 +1,9 @@
-FormKey: 00EAF7:ConstellationsNewSkills.esp
+FormKey: 000086:ConstellationsNewSkills.esp
 EditorID: CNS_EnchRingHandToHand04
 Name:
   TargetLanguage: English
   Value: Ring of Eminent Pummeling
-ObjectEffect: 00E54F:ConstellationsNewSkills.esp
+ObjectEffect: 000038:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

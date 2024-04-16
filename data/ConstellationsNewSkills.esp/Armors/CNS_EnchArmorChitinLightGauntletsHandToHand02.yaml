@@ -1,9 +1,9 @@
-FormKey: 02A0E6:ConstellationsNewSkills.esp
+FormKey: 000104:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorChitinLightGauntletsHandToHand02
 Name:
   TargetLanguage: English
   Value: Chitin Bracers of Pummeling
-ObjectEffect: 00E54B:ConstellationsNewSkills.esp
+ObjectEffect: 000036:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

@@ -1,9 +1,9 @@
-FormKey: 00F5FA:ConstellationsNewSkills.esp
+FormKey: 0000C7:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorImperialGauntletsSorcery01
 Name:
   TargetLanguage: English
   Value: Imperial Bracers of Minor Sorcery
-ObjectEffect: 00E565:ConstellationsNewSkills.esp
+ObjectEffect: 000043:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

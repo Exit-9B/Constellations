@@ -162,7 +162,7 @@ BookText:
     The Emperor Magnus Septim dies. His son, who will be known as Pelagius the Mad, is coronated.
 Keywords:
 - 0937A2:Skyrim.esm
-- 0012D4:ConstellationsNewSkills.esp
+- 000006:ConstellationsNewSkills.esp
 Teaches:
   MutagenObjectType: BookTeachesNothing
   RawContent: 4294967295

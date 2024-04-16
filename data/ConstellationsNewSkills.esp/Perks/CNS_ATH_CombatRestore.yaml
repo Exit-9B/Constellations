@@ -1,4 +1,4 @@
-FormKey: 008423:ConstellationsNewSkills.esp
+FormKey: 000186:ConstellationsNewSkills.esp
 EditorID: CNS_ATH_CombatRestore
 Name:
   TargetLanguage: English
@@ -12,16 +12,16 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D64:ConstellationsNewSkills.esp
+    Global: 000012:ConstellationsNewSkills.esp
   ComparisonValue: 40
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
     MutagenObjectType: HasPerkConditionData
-    Perk: 0058F7:ConstellationsNewSkills.esp
+    Perk: 000175:ConstellationsNewSkills.esp
   ComparisonValue: 1
 NumRanks: 1
 Playable: True
 Effects:
 - MutagenObjectType: PerkAbilityEffect
-  Ability: 00841D:ConstellationsNewSkills.esp
+  Ability: 000049:ConstellationsNewSkills.esp

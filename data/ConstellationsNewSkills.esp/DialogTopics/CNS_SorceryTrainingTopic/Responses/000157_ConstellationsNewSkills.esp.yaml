@@ -1,17 +1,16 @@
-FormKey: 000D70:ConstellationsNewSkills.esp
-Flags:
-  Flags:
-  - Random
-  - RandomEnd
-PreviousDialog: 000D6F:ConstellationsNewSkills.esp
+FormKey: 000157:ConstellationsNewSkills.esp
+Flags: {}
+PreviousDialog: 000156:ConstellationsNewSkills.esp
 FavorLevel: None
-ResponseData: 0BD7E1:Skyrim.esm
+ResponseData: 0BD7E0:Skyrim.esm
 Conditions:
 - MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetIsIDConditionData
-    Object: 01CD8F:Skyrim.esm
+    Object: 01C19C:Skyrim.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Flags:
@@ -19,12 +18,13 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetIsIDConditionData
-    Object: 01CD8F:Skyrim.esm
+    Object: 019DEF:Skyrim.esm
+  ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
-    MutagenObjectType: GetGlobalValueConditionData
-    Global: 0E595A:Skyrim.esm
+    MutagenObjectType: GetIsIDConditionData
+    Object: 02427D:Skyrim.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   Flags:
@@ -32,10 +32,10 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetIsIDConditionData
-    Object: 01541D:Dawnguard.esm
+    Object: 02427D:Skyrim.esm
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
-    MutagenObjectType: GetInCurrentLocConditionData
-    Location: 004C1F:Dawnguard.esm
-  ComparisonValue: 1
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 0242AF:Skyrim.esm
+    Stage: 198

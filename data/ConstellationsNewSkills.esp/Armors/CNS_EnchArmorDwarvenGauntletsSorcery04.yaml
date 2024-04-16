@@ -1,9 +1,9 @@
-FormKey: 00F622:ConstellationsNewSkills.esp
+FormKey: 0000EF:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorDwarvenGauntletsSorcery04
 Name:
   TargetLanguage: English
   Value: Dwarven Bracers of Eminent Sorcery
-ObjectEffect: 00E56B:ConstellationsNewSkills.esp
+ObjectEffect: 000046:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

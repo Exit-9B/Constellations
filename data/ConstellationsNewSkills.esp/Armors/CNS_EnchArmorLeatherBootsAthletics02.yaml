@@ -1,9 +1,9 @@
-FormKey: 00F07B:ConstellationsNewSkills.esp
+FormKey: 0000A9:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorLeatherBootsAthletics02
 Name:
   TargetLanguage: English
   Value: Leather Boots of Speed
-ObjectEffect: 00E559:ConstellationsNewSkills.esp
+ObjectEffect: 00003D:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

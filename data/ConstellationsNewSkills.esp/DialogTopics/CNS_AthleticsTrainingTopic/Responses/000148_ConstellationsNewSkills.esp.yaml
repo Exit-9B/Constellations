@@ -1,16 +1,16 @@
-FormKey: 010667:ConstellationsNewSkills.esp
+FormKey: 000148:ConstellationsNewSkills.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: CNS_TIF__TrainingErandur
+  - Name: CNS_TIF__TrainingDurak
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: CNS_TIF__TrainingErandur
+    FileName: CNS_TIF__TrainingDurak
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: CNS_TIF__TrainingErandur
+      ScriptName: CNS_TIF__TrainingDurak
       FragmentName: Fragment_0
 Flags: {}
-PreviousDialog: 010666:ConstellationsNewSkills.esp
+PreviousDialog: 000147:ConstellationsNewSkills.esp
 FavorLevel: None
 Responses:
 - EmotionValue: 50
@@ -21,7 +21,7 @@ Responses:
   Unknown3: 0x000000
   Text:
     TargetLanguage: English
-    Value: I can teach you a few things.
+    Value: You'll never compare to me, but I can try to teach you anyway.
   ScriptNotes: ''
   Edits: ''
 Conditions:
@@ -29,19 +29,18 @@ Conditions:
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetIsIDConditionData
-    Object: 02427D:Skyrim.esm
+    Object: 01541D:Dawnguard.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
   CompareOperator: LessThan
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
-    Global: 000D67:ConstellationsNewSkills.esp
-  ComparisonValue: 50
+    Global: 000012:ConstellationsNewSkills.esp
+  ComparisonValue: 75
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
-    MutagenObjectType: GetStageDoneConditionData
-    Quest: 0242AF:Skyrim.esm
-    Stage: 198
+    MutagenObjectType: GetInCurrentLocConditionData
+    Location: 004C1F:Dawnguard.esm
   ComparisonValue: 1

@@ -1,9 +1,9 @@
-FormKey: 00F606:ConstellationsNewSkills.esp
+FormKey: 0000D3:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorIronGauntletsSorcery02
 Name:
   TargetLanguage: English
   Value: Iron Gauntlets of Sorcery
-ObjectEffect: 00E567:ConstellationsNewSkills.esp
+ObjectEffect: 000044:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

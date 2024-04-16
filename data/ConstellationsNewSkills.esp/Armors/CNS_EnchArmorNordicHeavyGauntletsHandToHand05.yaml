@@ -1,9 +1,9 @@
-FormKey: 02A0EB:ConstellationsNewSkills.esp
+FormKey: 000109:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorNordicHeavyGauntletsHandToHand05
 Name:
   TargetLanguage: English
   Value: Nordic Carved Gauntlets of Extreme Pummeling
-ObjectEffect: 00E551:ConstellationsNewSkills.esp
+ObjectEffect: 000039:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

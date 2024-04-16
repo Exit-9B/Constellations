@@ -1,9 +1,9 @@
-FormKey: 02A0F8:ConstellationsNewSkills.esp
+FormKey: 000116:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorStalhrimLightBootsAthletics03
 Name:
   TargetLanguage: English
   Value: Stalhrim Light Boots of Major Speed
-ObjectEffect: 00E55B:ConstellationsNewSkills.esp
+ObjectEffect: 00003E:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

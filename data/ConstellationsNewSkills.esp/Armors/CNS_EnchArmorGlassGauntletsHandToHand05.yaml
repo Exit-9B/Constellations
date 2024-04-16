@@ -1,9 +1,9 @@
-FormKey: 00EB07:ConstellationsNewSkills.esp
+FormKey: 000096:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorGlassGauntletsHandToHand05
 Name:
   TargetLanguage: English
   Value: Glass Gauntlets of Extreme Pummeling
-ObjectEffect: 00E551:ConstellationsNewSkills.esp
+ObjectEffect: 000039:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:

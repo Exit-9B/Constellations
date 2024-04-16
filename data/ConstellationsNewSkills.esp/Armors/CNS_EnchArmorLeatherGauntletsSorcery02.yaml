@@ -1,9 +1,9 @@
-FormKey: 00F605:ConstellationsNewSkills.esp
+FormKey: 0000D2:ConstellationsNewSkills.esp
 EditorID: CNS_EnchArmorLeatherGauntletsSorcery02
 Name:
   TargetLanguage: English
   Value: Leather Bracers of Sorcery
-ObjectEffect: 00E567:ConstellationsNewSkills.esp
+ObjectEffect: 000044:ConstellationsNewSkills.esp
 WorldModel:
   Male:
     Model:
