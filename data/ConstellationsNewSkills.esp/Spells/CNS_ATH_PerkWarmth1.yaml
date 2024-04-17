@@ -27,5 +27,11 @@ Effects:
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
     Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 00314A:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
       MutagenObjectType: HasPerkConditionData
       Perk: 00018D:ConstellationsNewSkills.esp

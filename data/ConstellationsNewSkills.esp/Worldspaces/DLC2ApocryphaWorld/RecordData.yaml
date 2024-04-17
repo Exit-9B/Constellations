@@ -30,5 +30,5 @@ ObjectBoundsMin: -50, -50
 ObjectBoundsMax: 55, 51
 Music: 034281:Dragonborn.esm
 WaterEnvironmentMap: data\Textures\Cubemaps\Apocrypha.dds
-SubCellsTimestamp: 12432
+SubCellsTimestamp: 12433
 SubCellsUnknown: 1
