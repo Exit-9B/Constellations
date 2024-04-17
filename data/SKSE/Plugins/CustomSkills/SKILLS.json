@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Exit-9B/CustomSkills/config_ref/docs/schema/CustomSkill.json",
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/CustomSkills/main/docs/schema/CustomSkill.json",
   "version": 1,
   "skydome": {
     "model": "Constellations/Interface/INTPerkSkydome.nif",

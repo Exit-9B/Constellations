@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Exit-9B/CustomSkills/config_ref/docs/schema/skill.json",
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/CustomSkills/main/docs/schema/skill.json",
   "id": "Athletics",
   "name": "$Athletics_Name",
   "description": "$Athletics_Description",
