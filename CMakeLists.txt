@@ -69,12 +69,12 @@ endif()
 file(GLOB_RECURSE DATA_FILES
 	LIST_DIRECTORIES false
 	CONFIGURE_DEPENDS
-	"${PROJECT_SOURCE_DIR}/data/Interface/*"
-	"${PROJECT_SOURCE_DIR}/data/Meshes/*"
-	"${PROJECT_SOURCE_DIR}/data/Seq/*"
+	"${PROJECT_SOURCE_DIR}/data/Interface/Translations/*.txt"
+	"${PROJECT_SOURCE_DIR}/data/Meshes/*.nif"
+	"${PROJECT_SOURCE_DIR}/data/Seq/*.seq"
 	"${PROJECT_SOURCE_DIR}/data/SKSE/*"
-	"${PROJECT_SOURCE_DIR}/data/Sound/*"
-	"${PROJECT_SOURCE_DIR}/data/Textures/*"
+	"${PROJECT_SOURCE_DIR}/data/Sound/*.fuz"
+	"${PROJECT_SOURCE_DIR}/data/Textures/*.dds"
 )
 
 foreach(FILE ${DATA_FILES})

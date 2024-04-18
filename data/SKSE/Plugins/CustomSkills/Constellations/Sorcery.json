@@ -17,61 +17,61 @@
     {
       "id": "Mastery",
       "perk": "ConstellationsNewSkills.esp|16A",
-      "x": 0,
+      "x": 0.05,
       "y": 0,
       "links": [ "ScrollPower", "StaffPower", "CastResistStagger" ]
     },
     {
       "id": "ScrollPower",
       "perk": "ConstellationsNewSkills.esp|180",
-      "x": -1.6,
+      "x": 1.6,
       "y": 0.6
     },
     {
       "id": "StaffPower",
       "perk": "ConstellationsNewSkills.esp|163",
-      "x": 1.6,
+      "x": -1.6,
       "y": 1.0,
       "links": [ "StaffSpeed" ]
     },
     {
       "id": "StaffSpeed",
       "perk": "ConstellationsNewSkills.esp|17B",
-      "x": 0.9,
+      "x": -1.0,
       "y": 1.9
     },
     {
       "id": "CastResistStagger",
       "perk": "ConstellationsNewSkills.esp|17F",
-      "x": -0.1,
+      "x": 0.0,
       "y": 0.9,
       "links": [ "CastShield" ]
     },
     {
       "id": "CastShield",
       "perk": "ConstellationsNewSkills.esp|17A",
-      "x": -0.2,
-      "y": 2.2,
+      "x": 0.0,
+      "y": 2.5,
       "links": [ "StaffRegen", "StaffAbsorb" ]
     },
     {
       "id": "StaffRegen",
       "perk": "ConstellationsNewSkills.esp|18C",
       "x": -1.0,
-      "y": 2.9
+      "y": 3.3
     },
     {
       "id": "StaffAbsorb",
       "perk": "ConstellationsNewSkills.esp|166",
-      "x": 0.6,
-      "y": 3.3,
+      "x": 1.4,
+      "y": 3.8,
       "links": [ "StaffReflect" ]
     },
     {
       "id": "StaffReflect",
       "perk": "ConstellationsNewSkills.esp|167",
-      "x": -0.1,
-      "y": 4.4
+      "x": 0,
+      "y": 5.2
     }
   ]
 }

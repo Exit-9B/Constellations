@@ -17,15 +17,15 @@
     {
       "id": "Mastery",
       "perk": "ConstellationsNewSkills.esp|175",
-      "x": 0.0,
+      "x": -0.9,
       "y": 0.0,
       "links": [ "Warmth", "CombatRestore" ]
     },
     {
       "id": "Warmth",
       "perk": "ConstellationsNewSkills.esp|188",
-      "x": -2.0,
-      "y": 0.6
+      "x": 0.7,
+      "y": 0.3
     },
     {
       "id": "CombatRestore",
