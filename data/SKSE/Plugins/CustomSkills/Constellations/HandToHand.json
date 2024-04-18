@@ -18,7 +18,7 @@
       "id": "Mastery",
       "perk": "ConstellationsNewSkills.esp|16F",
       "x": 0.4,
-      "y": 0,
+      "y": 0.0,
       "links": [ "UnarmedSpeed", "DamageAttack" ]
     },
     {
@@ -44,14 +44,14 @@
     {
       "id": "DamageAttack",
       "perk": "ConstellationsNewSkills.esp|18A",
-      "x": 2,
+      "x": 2.0,
       "y": 0.5,
       "links": [ "UnarmedTemper" ]
     },
     {
       "id": "UnarmedTemper",
       "perk": "ConstellationsNewSkills.esp|169",
-      "x": 3,
+      "x": 3.0,
       "y": 1.0
     },
     {

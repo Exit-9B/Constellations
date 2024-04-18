@@ -17,8 +17,8 @@
     {
       "id": "Mastery",
       "perk": "ConstellationsNewSkills.esp|16A",
-      "x": 0.05,
-      "y": 0,
+      "x": 0.0,
+      "y": 0.0,
       "links": [ "ScrollPower", "StaffPower", "CastResistStagger" ]
     },
     {
@@ -70,7 +70,7 @@
     {
       "id": "StaffReflect",
       "perk": "ConstellationsNewSkills.esp|167",
-      "x": 0,
+      "x": 0.0,
       "y": 5.2
     }
   ]
