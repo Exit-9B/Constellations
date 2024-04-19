@@ -109,7 +109,7 @@ namespace Hooks
 		RE::Projectile* a_projectile,
 		RE::BGSProjectile* a_base)
 	{
-		const auto actor = a_target->As<RE::Actor>();
+		const auto actor = a_target ? a_target->As<RE::Actor>() : nullptr;
 		if (actor && ShouldEvade(actor, a_projectile)) {
 			return false;
 		}
