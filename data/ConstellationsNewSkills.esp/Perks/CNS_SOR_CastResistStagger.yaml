@@ -13,7 +13,7 @@ Conditions:
   Data:
     MutagenObjectType: GetGlobalValueConditionData
     Global: 000015:ConstellationsNewSkills.esp
-  ComparisonValue: 20
+  ComparisonValue: 30
 - MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:

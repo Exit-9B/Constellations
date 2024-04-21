@@ -7,7 +7,7 @@
   "ratio": "ConstellationsNewSkills.esp|016",
   "legendary": "ConstellationsNewSkills.esp|017",
   "experienceFormula": {
-    "useMult": 2.1,
+    "useMult": 1.8,
     "useOffset": 0.0,
     "improveMult": 2.0,
     "improveOffset": 0.0,
@@ -44,7 +44,7 @@
       "id": "CastResistStagger",
       "perk": "ConstellationsNewSkills.esp|17F",
       "x": 0.0,
-      "y": 0.9,
+      "y": 1.2,
       "links": [ "CastShield" ]
     },
     {

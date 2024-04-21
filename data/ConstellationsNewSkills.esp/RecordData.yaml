@@ -8,7 +8,7 @@ ModHeader:
   - Light
   Stats:
     NumRecords: 591
-    NextFormID: 1492
+    NextFormID: 22784
   Author: Parapets
   Description: '{{BASH:Delev,Keywords,Stats}}'
   MasterReferences:

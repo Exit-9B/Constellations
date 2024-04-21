@@ -5,7 +5,7 @@ Name:
   Value: Nullification
 Description:
   TargetLanguage: English
-  Value: 30% reduced damage from Destruction spells while focusing a staff.
+  Value: 30% reduced damage from elemental effects while focusing a staff.
 Conditions:
 - MutagenObjectType: ConditionFloat
   CompareOperator: GreaterThanOrEqualTo
@@ -87,10 +87,28 @@ Effects:
   - RunOnTabIndex: 1
     Conditions:
     - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
       Unknown1: 0x000000
       Data:
-        MutagenObjectType: EPMagic_SpellHasSkillConditionData
-        ActorValue: Destruction
+        MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+        Keyword: 01CEAD:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+        Keyword: 01CEAE:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+        Keyword: 01CEAF:Skyrim.esm
       ComparisonValue: 1
   EntryPoint: ModIncomingSpellMagnitude
   PerkConditionTabCount: 2
