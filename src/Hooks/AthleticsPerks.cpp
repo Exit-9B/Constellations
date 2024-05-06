@@ -4,6 +4,8 @@
 #include "Data/ModObjectManager.h"
 #include "PerkUtils/PerkUtils.h"
 
+#include <Windows.h>
+
 namespace Hooks
 {
 	void AthleticsPerks::WriteHooks()
@@ -36,6 +38,9 @@ namespace Hooks
 
 	void AthleticsPerks::JumpHeightPatch()
 	{
+		if (::GetModuleHandle(TEXT("po3_Tweaks")))
+			return;
+
 		auto hook = REL::Relocation<std::uintptr_t>(RE::Offset::Actor::Jump, 0x17F);
 		REL::make_pattern<"E8">().match_or_fail(hook.address());
 
