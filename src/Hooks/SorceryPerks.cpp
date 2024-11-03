@@ -68,7 +68,7 @@ namespace Hooks
 				mov(rcx, rdi);
 				call(ptr[rip + funcLbl]);
 				cmp(al, 0);
-				jnz(hitDone);
+				jnz(hitDone, T_SHORT);
 				mov(rcx, rbx);
 				movss(xmm3, ptr[rip + neg_1_0]);
 				jmp(ptr[rip]);
@@ -111,7 +111,7 @@ namespace Hooks
 				mov(rcx, rsi);
 				call(ptr[rip + funcLbl]);
 				test(rbx, rbx);
-				jz(nullRef);
+				jz(nullRef, T_SHORT);
 				jmp(ptr[rip]);
 				dq(a_hookAddr + 0x5);
 

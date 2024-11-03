@@ -121,7 +121,7 @@ namespace Hooks
 				// ignore instant source because we don't want reflected spells to gain normal xp
 				cmp(dword[rdi + offsetof(RE::ActiveEffect, castingSource)],
 					static_cast<std::uint32_t>(RE::MagicSystem::CastingSource::kInstant));
-				jz(done);
+				jz(done, T_SHORT);
 				mov(rax, ptr[rdi + 0x48]);
 				mov(ptr[rsp + 0x40], rax);
 
@@ -331,7 +331,7 @@ namespace Hooks
 				mov(rcx, rdi);
 				call(ptr[rip + funcLbl]);
 				cmp(al, 0);
-				jnz(calcDone);
+				jnz(calcDone, T_SHORT);
 
 				jmp(ptr[rip]);
 				dq(a_hookAddr + 0x8);
