@@ -64,12 +64,20 @@ namespace Hooks
 				Xbyak::Label hitDone;
 				Xbyak::Label neg_1_0;
 
+				push(r8);
+				push(rcx);
+
+				sub(rsp, 0x20);
 				mov(rdx, rsi);
 				mov(rcx, rdi);
 				call(ptr[rip + funcLbl]);
+				add(rsp, 0x20);
+
+				pop(rcx);
+				pop(r8);
+
 				cmp(al, 0);
 				jnz(hitDone, T_SHORT);
-				mov(rcx, rbx);
 				movss(xmm3, ptr[rip + neg_1_0]);
 				jmp(ptr[rip]);
 				dq(a_hookAddr + 0x8);
