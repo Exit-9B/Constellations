@@ -101,7 +101,7 @@ namespace Hooks
 	void Athletics::Update(RE::PlayerCharacter* a_player, float a_delta)
 	{
 		_Update(a_player, a_delta);
-		if (a_player->IsSprinting()) {
+		if (a_player->IsSprinting() && !a_player->IsOnMount()) {
 			float skillUse = a_delta;
 			if (const auto customSkills = util::GetCustomSkillsInterface()) {
 				customSkills->AdvanceSkill("Athletics", skillUse);
