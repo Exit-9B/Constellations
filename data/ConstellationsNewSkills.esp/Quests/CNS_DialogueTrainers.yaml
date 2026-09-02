@@ -1,6 +1,0 @@
-FormKey: 00015A:ConstellationsNewSkills.esp
-EditorID: CNS_DialogueTrainers
-Flags:
-- StartGameEnabled
-- 0x10
-- RunOnce

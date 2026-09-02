@@ -7,12 +7,5 @@
     "rsm-binary-io",
     "spdlog",
     "xbyak"
-  ],
-  "builtin-baseline": "215a2535590f1f63788ac9bd2ed58ad15e6afdff",
-  "overrides": [
-    {
-      "name": "xbyak",
-      "version": "6.69"
-    }
   ]
 }
