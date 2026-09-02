@@ -90,6 +90,11 @@ foreach(FILE ${DATA_FILES})
 	)
 endforeach()
 
+if(NOT CMAKE_SOURCE_DIR STREQUAL CMAKE_BINARY_DIR)
+  file(WRITE "${CMAKE_BINARY_DIR}/.gitignore" "*")
+  file(WRITE "${CMAKE_BINARY_DIR}/.hgignore" "syntax: glob\n**/*")
+endif()
+
 set(CPACK_GENERATOR "7Z")
 set(CPACK_PACKAGE_FILE_NAME ${PROJECT_NAME}-${PROJECT_VERSION})
 set(CPACK_INCLUDE_TOPLEVEL_DIRECTORY FALSE)
