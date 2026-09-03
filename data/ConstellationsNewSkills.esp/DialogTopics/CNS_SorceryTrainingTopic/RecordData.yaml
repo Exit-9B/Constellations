@@ -1,9 +1,0 @@
-FormKey: 000152:ConstellationsNewSkills.esp
-EditorID: CNS_SorceryTrainingTopic
-Name:
-  TargetLanguage: English
-  Value: Can you teach me about sorcery?
-Branch: 00019B:ConstellationsNewSkills.esp
-Quest: 00015A:ConstellationsNewSkills.esp
-SubtypeName: CUST
-Timestamp: 12437

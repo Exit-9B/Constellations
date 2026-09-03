@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 3.24)
+cmake_minimum_required(VERSION 3.30)
 
 project(
 	Constellations
-	VERSION 1.0.2
+	VERSION 1.0.3
 	LANGUAGES CXX
 )
 
@@ -14,7 +14,6 @@ list(APPEND CMAKE_MODULE_PATH
 	"${PROJECT_SOURCE_DIR}/tools/BethesdaCMakeModules/Modules"
 )
 include(SKSEPlugin)
-include(Spriggit)
 include(Papyrus)
 
 set(SKSE_USE_XBYAK ON)
@@ -35,15 +34,6 @@ SKSEPlugin_Add(
 
 set_target_properties(CommonLibSSE PROPERTIES
     FOLDER External
-)
-
-Spriggit_Deserialize(
-	"Spriggit"
-	INPUT "${PROJECT_SOURCE_DIR}/data/ConstellationsNewSkills.esp"
-	OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/ConstellationsNewSkills.esp"
-	PACKAGE Spriggit.Yaml
-	COMPONENT "PackageOnly"
-	EXCLUDE_FROM_ALL
 )
 
 file(GLOB SCRIPT_SOURCES
@@ -69,6 +59,7 @@ endif()
 file(GLOB_RECURSE DATA_FILES
 	LIST_DIRECTORIES false
 	CONFIGURE_DEPENDS
+	"${PROJECT_SOURCE_DIR}/data/ConstellationsNewSkills.esp"
 	"${PROJECT_SOURCE_DIR}/data/Interface/Translations/*.txt"
 	"${PROJECT_SOURCE_DIR}/data/Meshes/*.nif"
 	"${PROJECT_SOURCE_DIR}/data/Seq/*.seq"
@@ -87,6 +78,10 @@ foreach(FILE ${DATA_FILES})
 		PARENT_PATH DESTINATION_PATH
 	)
 
+	if(NOT DESTINATION_PATH)
+		set(DESTINATION_PATH ".")
+	endif()
+
 	install(
 		FILES "${FILE}"
 		DESTINATION "${DESTINATION_PATH}"
@@ -94,6 +89,11 @@ foreach(FILE ${DATA_FILES})
 		EXCLUDE_FROM_ALL
 	)
 endforeach()
+
+if(NOT CMAKE_SOURCE_DIR STREQUAL CMAKE_BINARY_DIR)
+  file(WRITE "${CMAKE_BINARY_DIR}/.gitignore" "*")
+  file(WRITE "${CMAKE_BINARY_DIR}/.hgignore" "syntax: glob\n**/*")
+endif()
 
 set(CPACK_GENERATOR "7Z")
 set(CPACK_PACKAGE_FILE_NAME ${PROJECT_NAME}-${PROJECT_VERSION})

@@ -1,7 +1,0 @@
-FormKey: 00019B:ConstellationsNewSkills.esp
-EditorID: CNS_SorceryTrainingBranch
-Quest: 00015A:ConstellationsNewSkills.esp
-Category: Player
-Flags:
-- TopLevel
-StartingTopic: 000152:ConstellationsNewSkills.esp
